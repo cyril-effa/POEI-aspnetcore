@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex03_LINQ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC79492-AE7F-4888-8F57-AA567D14AEFD}|ex03_LINQ\\ex03_LINQ.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex03_linq\\ex03_linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC79492-AE7F-4888-8F57-AA567D14AEFD}|ex03_LINQ\\ex03_LINQ.csproj|solutionrelative:ex03_linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC79492-AE7F-4888-8F57-AA567D14AEFD}|ex03_LINQ\\ex03_LINQ.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex03_linq\\ex03_linq\\chien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC79492-AE7F-4888-8F57-AA567D14AEFD}|ex03_LINQ\\ex03_LINQ.csproj|solutionrelative:ex03_linq\\chien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC79492-AE7F-4888-8F57-AA567D14AEFD}|ex03_LINQ\\ex03_LINQ.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex03_linq\\ex03_linq\\personne4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC79492-AE7F-4888-8F57-AA567D14AEFD}|ex03_LINQ\\ex03_LINQ.csproj|solutionrelative:ex03_linq\\personne4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC79492-AE7F-4888-8F57-AA567D14AEFD}|ex03_LINQ\\ex03_LINQ.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex03_linq\\ex03_linq\\personne5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC79492-AE7F-4888-8F57-AA567D14AEFD}|ex03_LINQ\\ex03_LINQ.csproj|solutionrelative:ex03_linq\\personne5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC79492-AE7F-4888-8F57-AA567D14AEFD}|ex03_LINQ\\ex03_LINQ.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex03_linq\\ex03_linq\\personne3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC79492-AE7F-4888-8F57-AA567D14AEFD}|ex03_LINQ\\ex03_LINQ.csproj|solutionrelative:ex03_linq\\personne3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FC79492-AE7F-4888-8F57-AA567D14AEFD}|ex03_LINQ\\ex03_LINQ.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex03_linq\\ex03_linq\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FC79492-AE7F-4888-8F57-AA567D14AEFD}|ex03_LINQ\\ex03_LINQ.csproj|solutionrelative:ex03_linq\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Personne5.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex03_LINQ\\ex03_LINQ\\Personne5.cs",
+              "RelativeDocumentMoniker": "ex03_LINQ\\Personne5.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex03_LINQ\\ex03_LINQ\\Personne5.cs",
+              "RelativeToolTip": "ex03_LINQ\\Personne5.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:04:16.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex03_LINQ\\ex03_LINQ\\Program.cs",
+              "RelativeDocumentMoniker": "ex03_LINQ\\Program.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex03_LINQ\\ex03_LINQ\\Program.cs",
+              "RelativeToolTip": "ex03_LINQ\\Program.cs",
+              "ViewState": "AgIAAJMBAAAAAAAAAAAIwJ0BAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T09:58:34.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chien.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex03_LINQ\\ex03_LINQ\\Chien.cs",
+              "RelativeDocumentMoniker": "ex03_LINQ\\Chien.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex03_LINQ\\ex03_LINQ\\Chien.cs",
+              "RelativeToolTip": "ex03_LINQ\\Chien.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwBQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:40:03.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Personne4.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex03_LINQ\\ex03_LINQ\\Personne4.cs",
+              "RelativeDocumentMoniker": "ex03_LINQ\\Personne4.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex03_LINQ\\ex03_LINQ\\Personne4.cs",
+              "RelativeToolTip": "ex03_LINQ\\Personne4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:47:43.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Personne3.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex03_LINQ\\ex03_LINQ\\Personne3.cs",
+              "RelativeDocumentMoniker": "ex03_LINQ\\Personne3.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex03_LINQ\\ex03_LINQ\\Personne3.cs",
+              "RelativeToolTip": "ex03_LINQ\\Personne3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:19:20.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex03_LINQ\\ex03_LINQ\\Dog.cs",
+              "RelativeDocumentMoniker": "ex03_LINQ\\Dog.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex03_LINQ\\ex03_LINQ\\Dog.cs",
+              "RelativeToolTip": "ex03_LINQ\\Dog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T10:10:06.849Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "ex10bis.Web.Api.ShippingApiController",
+    "Method": "Post",
+    "RelativePath": "api/ShippingApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ex10bis.Core.Dtos.ShippingDtos\u002BShippingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ex10bis.Core.Dtos.ShippingDtos\u002BShippingResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

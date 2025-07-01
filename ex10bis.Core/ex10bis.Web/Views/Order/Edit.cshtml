@@ -1,0 +1,162 @@
+﻿@model ex10bis.Core.Order.Dtos.EditOrderRequest
+
+@{
+    ViewData["Title"] = "Edit";
+    var articles = (IEnumerable<SelectListItem>)ViewBag.Articles;
+    var articlesPrice = (IDictionary<string, decimal>)ViewBag.ArticlesPrice;
+}
+
+<h2>Modifier une commande</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" method="post">
+            <input asp-for="CustomerId" type="hidden" />
+            <input asp-for="Customer" type="hidden" />
+            <div class="form-group">
+                <label asp-for="Warehouse" class="control-label"></label>
+                <select asp-for="WarehouseId" class="form-control" asp-items="ViewBag.Warehouses"></select>
+                <span asp-validation-for="WarehouseId" class="text-danger"></span>
+            </div>
+            <input asp-for="Warehouse" type="hidden" />
+            <input asp-for="Delivery" type="hidden" />
+            <input asp-for="Facture" type="hidden" />
+            <input asp-for="OrderDate" type="hidden" />
+            <input asp-for="OrderStatus" type="hidden" />
+            <div class="form-group">
+                <table class="table" id="articlesTable" style="table-layout: fixed;">
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Article</th>
+                            <th style="width: 30%;">Prix unitaire</th>
+                            <th style="width: 20%;">Quantité</th>
+                            <th style="width: 10%;"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.OrderDetails != null && Model.OrderDetails.Count > 0)
+                        {
+                            @for (int i = 0; i < Model.OrderDetails.Count; i++)
+                            {
+                                <tr>
+                                    <td>
+                                        <select asp-for="OrderDetails[@i].ArticleId" class="form-control article-select" asp-items="articles"></select>
+                                        <span asp-validation-for="OrderDetails[@i].ArticleId" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <input asp-for="OrderDetails[@i].UnitPrice" class="form-control unit-price" disabled="disabled"
+                                               value="@(articlesPrice.ContainsKey(Model.OrderDetails[@i].ArticleId.ToString()) ? articlesPrice[Model.OrderDetails[@i].ArticleId.ToString()] : "//")" />
+                                        <span asp-validation-for="OrderDetails[@i].UnitPrice" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <input asp-for="OrderDetails[@i].Quantity" class="form-control quantity" min="1" value="@(Model.OrderDetails[@i].Quantity > 0 ? Model.OrderDetails[@i].Quantity : 1)" />
+                                        <span asp-validation-for="OrderDetails[@i].Quantity" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-danger removeArticleBtn">-</button>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+                <button type="button" class="btn btn-success" id="addArticleBtn">+ Ajouter un article</button>
+            </div>
+            <input asp-for="ShippingCost" type="hidden" />
+            <input asp-for="ShippingDuration" type="hidden" />
+            <div class="form-group">
+                <label>Montant total</label>
+                <input type="text" id="TotalAmount" class="form-control" readonly />
+            </div>
+
+            <br />
+            <button type="submit" class="btn btn-primary">Enregistrer</button>
+            <a asp-action="Index" class="btn btn-secondary">Retour à la liste</a>
+        </form>
+    </div>
+</div>
+
+<script>
+    var articlePrices = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(articlesPrice));
+    let articleIndex = @Model.OrderDetails?.Count ?? 0;
+
+    function updateTotalAmount() {
+        let total = 0;
+        document.querySelectorAll('#articlesTable tbody tr').forEach(function (row) {
+            const qty = parseFloat(row.querySelector('.quantity')?.value) || 0;
+            const price = parseFloat(row.querySelector('.unit-price')?.value) || 0;
+            if (qty > 0 && price > 0) {
+                total += qty * price;
+            }
+        });
+        document.getElementById('TotalAmount').value = total.toFixed(2);
+    }
+
+    document.getElementById('articlesTable').addEventListener('change', function (e) {
+        if (e.target && e.target.classList.contains('article-select')) {
+            const row = e.target.closest('tr');
+            const articleId = e.target.value;
+            const priceInput = row.querySelector('.unit-price');
+            const qtyInput = row.querySelector('.quantity');
+            const price = articlePrices[articleId];
+            if (articleId && price) {
+                priceInput.value = price;
+                qtyInput.value = 1;
+            } else {
+                priceInput.value = '';
+                qtyInput.value = '';
+            }
+            updateTotalAmount();
+        }
+        if (e.target && e.target.classList.contains('quantity')) {
+            updateTotalAmount();
+        }
+    });
+
+    document.getElementById('articlesTable').addEventListener('input', function (e) {
+        if (e.target && e.target.classList.contains('quantity')) {
+            if (parseInt(e.target.value) < 1 || isNaN(parseInt(e.target.value))) {
+                e.target.value = 1;
+            }
+            updateTotalAmount();
+        }
+    });
+
+    document.getElementById('addArticleBtn').addEventListener('click', function () {
+        const table = document.getElementById('articlesTable').getElementsByTagName('tbody')[0];
+        const newRow = document.createElement('tr');
+        newRow.innerHTML = `
+            <td>
+                <select name="OrderDetails[${articleIndex}].ArticleId" class="form-control article-select">
+                    <option value="">-- Choisir --</option>
+                    @foreach (var item in articles)
+                    {
+                                <option value="@item.Value">@item.Text</option>
+                    }
+                </select>
+            </td>
+            <td>
+                <input name="OrderDetails[${articleIndex}].UnitPrice" class="form-control unit-price" disabled="disabled" />
+            </td>
+            <td>
+                <input name="OrderDetails[${articleIndex}].Quantity" class="form-control quantity" min="1" value="1" />
+            </td>
+            <td>
+                <button type="button" class="btn btn-danger removeArticleBtn">-</button>
+            </td>
+        `;
+        table.appendChild(newRow);
+        articleIndex++;
+        updateTotalAmount();
+    });
+
+    document.getElementById('articlesTable').addEventListener('click', function (e) {
+        if (e.target && e.target.classList.contains('removeArticleBtn')) {
+            const row = e.target.closest('tr');
+            row.parentNode.removeChild(row);
+            updateTotalAmount();
+        }
+    });
+
+    document.addEventListener('DOMContentLoaded', updateTotalAmount);
+</script>

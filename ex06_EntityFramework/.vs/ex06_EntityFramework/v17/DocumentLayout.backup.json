@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex06_entityframework\\ex06_entityframework\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|solutionrelative:ex06_entityframework\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex06_entityframework\\ex06_entityframework\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|solutionrelative:ex06_entityframework\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex06_entityframework\\ex06_entityframework\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|solutionrelative:ex06_entityframework\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex06_entityframework\\ex06_entityframework\\services\\csvparserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|solutionrelative:ex06_entityframework\\services\\csvparserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex06_entityframework\\ex06_entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|solutionrelative:ex06_entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Migrations\\20250605160731_CustomerAndAddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ex06_EntityFramework\\Migrations\\20250605160731_CustomerAndAddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex06_entityframework\\ex06_entityframework\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|solutionrelative:ex06_entityframework\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex06_entityframework\\ex06_entityframework\\ressources\\export.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|solutionrelative:ex06_entityframework\\ressources\\export.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex06_entityframework\\ex06_entityframework\\valueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|solutionrelative:ex06_entityframework\\valueobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex06_entityframework\\ex06_entityframework\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|solutionrelative:ex06_entityframework\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex06_entityframework\\ex06_entityframework\\migrations\\20250605160942_updateaddressnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|solutionrelative:ex06_entityframework\\migrations\\20250605160942_updateaddressnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex06_entityframework\\ex06_entityframework\\migrations\\20250605160830_initial\u002Bcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|solutionrelative:ex06_entityframework\\migrations\\20250605160830_initial\u002Bcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex06_entityframework\\ex06_entityframework\\migrations\\20250610071003_updateaddressremovedfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E040C5-F6C1-4A7B-B647-6428BAE575DB}|ex06_EntityFramework\\ex06_EntityFramework.csproj|solutionrelative:ex06_entityframework\\migrations\\20250610071003_updateaddressremovedfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250610071003_UpdateAddressRemovedFields.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Migrations\\20250610071003_UpdateAddressRemovedFields.cs",
+              "RelativeDocumentMoniker": "ex06_EntityFramework\\Migrations\\20250610071003_UpdateAddressRemovedFields.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Migrations\\20250610071003_UpdateAddressRemovedFields.cs",
+              "RelativeToolTip": "ex06_EntityFramework\\Migrations\\20250610071003_UpdateAddressRemovedFields.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T07:10:03.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250605160830_Initial\u002BCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Migrations\\20250605160830_Initial\u002BCustomer.cs",
+              "RelativeDocumentMoniker": "ex06_EntityFramework\\Migrations\\20250605160830_Initial\u002BCustomer.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Migrations\\20250605160830_Initial\u002BCustomer.cs",
+              "RelativeToolTip": "ex06_EntityFramework\\Migrations\\20250605160830_Initial\u002BCustomer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:08:31.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "ex06_EntityFramework\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Models\\Customer.cs",
+              "RelativeToolTip": "ex06_EntityFramework\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T15:21:41.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ex06_EntityFramework\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ex06_EntityFramework\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAmwDUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:21:16.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CsvParserService.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Services\\CsvParserService.cs",
+              "RelativeDocumentMoniker": "ex06_EntityFramework\\Services\\CsvParserService.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Services\\CsvParserService.cs",
+              "RelativeToolTip": "ex06_EntityFramework\\Services\\CsvParserService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwFwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:15:52.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "ex06_EntityFramework\\Models\\Address.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Models\\Address.cs",
+              "RelativeToolTip": "ex06_EntityFramework\\Models\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T15:32:13.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250605160942_UpdateAddressNullable.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Migrations\\20250605160942_UpdateAddressNullable.cs",
+              "RelativeDocumentMoniker": "ex06_EntityFramework\\Migrations\\20250605160942_UpdateAddressNullable.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Migrations\\20250605160942_UpdateAddressNullable.cs",
+              "RelativeToolTip": "ex06_EntityFramework\\Migrations\\20250605160942_UpdateAddressNullable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:09:42.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Models\\Article.cs",
+              "RelativeDocumentMoniker": "ex06_EntityFramework\\Models\\Article.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Models\\Article.cs",
+              "RelativeToolTip": "ex06_EntityFramework\\Models\\Article.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:43:03.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Program.cs",
+              "RelativeDocumentMoniker": "ex06_EntityFramework\\Program.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Program.cs",
+              "RelativeToolTip": "ex06_EntityFramework\\Program.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAkwGYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:17:51.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250605160731_CustomerAndAddress.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Migrations\\20250605160731_CustomerAndAddress.cs",
+              "RelativeDocumentMoniker": "ex06_EntityFramework\\Migrations\\20250605160731_CustomerAndAddress.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Migrations\\20250605160731_CustomerAndAddress.cs",
+              "RelativeToolTip": "ex06_EntityFramework\\Migrations\\20250605160731_CustomerAndAddress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T16:07:31.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ValueObject.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\ValueObject.cs",
+              "RelativeDocumentMoniker": "ex06_EntityFramework\\ValueObject.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\ValueObject.cs",
+              "RelativeToolTip": "ex06_EntityFramework\\ValueObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T15:32:53.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ex06_EntityFramework\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\Models\\Order.cs",
+              "RelativeToolTip": "ex06_EntityFramework\\Models\\Order.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T14:32:21.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "export.csv",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\ressources\\export.csv",
+              "RelativeDocumentMoniker": "ex06_EntityFramework\\ressources\\export.csv",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex06_EntityFramework\\ex06_EntityFramework\\ressources\\export.csv",
+              "RelativeToolTip": "ex06_EntityFramework\\ressources\\export.csv",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-06-05T13:24:31.568Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

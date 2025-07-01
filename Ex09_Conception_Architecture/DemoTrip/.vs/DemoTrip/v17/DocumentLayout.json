@@ -1,0 +1,358 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.core\\entities\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|solutionrelative:demotrip.core\\entities\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.core\\usecases\\searchtripresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|solutionrelative:demotrip.core\\usecases\\searchtripresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.core\\usecases\\searchtripusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|solutionrelative:demotrip.core\\usecases\\searchtripusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.web\\viewmodels\\searchtripresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|solutionrelative:demotrip.web\\viewmodels\\searchtripresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.web\\controllers\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|solutionrelative:demotrip.web\\controllers\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.web\\viewmodels\\searchtriprequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|solutionrelative:demotrip.web\\viewmodels\\searchtriprequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.web\\viewmodels\\searchflightresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|solutionrelative:demotrip.web\\viewmodels\\searchflightresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.web\\viewmodels\\searchhotelresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|solutionrelative:demotrip.web\\viewmodels\\searchhotelresponseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.core\\usecases\\searchhotelresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|solutionrelative:demotrip.core\\usecases\\searchhotelresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.web\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|solutionrelative:demotrip.web\\controllers\\flightscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.web\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|solutionrelative:demotrip.web\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.web\\viewmodels\\searchhotelrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF3831DC-5F5F-4C37-85FD-F017AD4BD099}|DemoTrip.Web\\DemoTrip.Web.csproj|solutionrelative:demotrip.web\\viewmodels\\searchhotelrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.core\\usecases\\searchflightusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|solutionrelative:demotrip.core\\usecases\\searchflightusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.core\\usecases\\searchhotelusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|solutionrelative:demotrip.core\\usecases\\searchhotelusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35605743-CE08-40A3-8A64-CA89FBA03FCE}|DemoTrip.UnitTests\\DemoTrip.UnitTests.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.unittests\\searchhotelusecase_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35605743-CE08-40A3-8A64-CA89FBA03FCE}|DemoTrip.UnitTests\\DemoTrip.UnitTests.csproj|solutionrelative:demotrip.unittests\\searchhotelusecase_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35605743-CE08-40A3-8A64-CA89FBA03FCE}|DemoTrip.UnitTests\\DemoTrip.UnitTests.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.unittests\\searchflightusecase_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35605743-CE08-40A3-8A64-CA89FBA03FCE}|DemoTrip.UnitTests\\DemoTrip.UnitTests.csproj|solutionrelative:demotrip.unittests\\searchflightusecase_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35605743-CE08-40A3-8A64-CA89FBA03FCE}|DemoTrip.UnitTests\\DemoTrip.UnitTests.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.unittests\\searchtripusecase_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35605743-CE08-40A3-8A64-CA89FBA03FCE}|DemoTrip.UnitTests\\DemoTrip.UnitTests.csproj|solutionrelative:demotrip.unittests\\searchtripusecase_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.core\\usecases\\searchflightrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|solutionrelative:demotrip.core\\usecases\\searchflightrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.core\\usecases\\searchflightresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E75BA22-AC56-4297-9CC7-B0D19DC19B10}|DemoTrip.Core\\DemoTrip.Core.csproj|solutionrelative:demotrip.core\\usecases\\searchflightresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2786E3-59F2-4D53-9FCB-8279607E87D1}|DemoTrip.Infrastructure\\DemoTrip.Infrastructure.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.infrastructure\\flights_with_names.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3B2786E3-59F2-4D53-9FCB-8279607E87D1}|DemoTrip.Infrastructure\\DemoTrip.Infrastructure.csproj|solutionrelative:demotrip.infrastructure\\flights_with_names.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B2786E3-59F2-4D53-9FCB-8279607E87D1}|DemoTrip.Infrastructure\\DemoTrip.Infrastructure.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex09_conception_architecture\\demotrip\\demotrip.infrastructure\\hotels.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3B2786E3-59F2-4D53-9FCB-8279607E87D1}|DemoTrip.Infrastructure\\DemoTrip.Infrastructure.csproj|solutionrelative:demotrip.infrastructure\\hotels.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SearchHotelResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\UseCases\\SearchHotelResponseDto.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Core\\UseCases\\SearchHotelResponseDto.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\UseCases\\SearchHotelResponseDto.cs",
+              "RelativeToolTip": "DemoTrip.Core\\UseCases\\SearchHotelResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:36:26.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SearchFlightResponseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\ViewModels\\SearchFlightResponseViewModel.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Web\\ViewModels\\SearchFlightResponseViewModel.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\ViewModels\\SearchFlightResponseViewModel.cs",
+              "RelativeToolTip": "DemoTrip.Web\\ViewModels\\SearchFlightResponseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:36:17.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FlightsController.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\Controllers\\FlightsController.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Web\\Controllers\\FlightsController.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\Controllers\\FlightsController.cs",
+              "RelativeToolTip": "DemoTrip.Web\\Controllers\\FlightsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:36:13.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Web\\Controllers\\HotelsController.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "DemoTrip.Web\\Controllers\\HotelsController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:36:06.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SearchHotelRequestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\ViewModels\\SearchHotelRequestViewModel.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Web\\ViewModels\\SearchHotelRequestViewModel.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\ViewModels\\SearchHotelRequestViewModel.cs",
+              "RelativeToolTip": "DemoTrip.Web\\ViewModels\\SearchHotelRequestViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:36:02.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SearchHotelResponseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\ViewModels\\SearchHotelResponseViewModel.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Web\\ViewModels\\SearchHotelResponseViewModel.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\ViewModels\\SearchHotelResponseViewModel.cs",
+              "RelativeToolTip": "DemoTrip.Web\\ViewModels\\SearchHotelResponseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:36:00.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Trip.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\Entities\\Trip.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Core\\Entities\\Trip.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\Entities\\Trip.cs",
+              "RelativeToolTip": "DemoTrip.Core\\Entities\\Trip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:34:43.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SearchTripRequestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\ViewModels\\SearchTripRequestViewModel.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Web\\ViewModels\\SearchTripRequestViewModel.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\ViewModels\\SearchTripRequestViewModel.cs",
+              "RelativeToolTip": "DemoTrip.Web\\ViewModels\\SearchTripRequestViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:32:00.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SearchTripResponseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\ViewModels\\SearchTripResponseViewModel.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Web\\ViewModels\\SearchTripResponseViewModel.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\ViewModels\\SearchTripResponseViewModel.cs",
+              "RelativeToolTip": "DemoTrip.Web\\ViewModels\\SearchTripResponseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:31:58.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchTripResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\UseCases\\SearchTripResponseDto.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Core\\UseCases\\SearchTripResponseDto.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\UseCases\\SearchTripResponseDto.cs",
+              "RelativeToolTip": "DemoTrip.Core\\UseCases\\SearchTripResponseDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T11:25:53.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SearchHotelUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\UseCases\\SearchHotelUseCase.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Core\\UseCases\\SearchHotelUseCase.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\UseCases\\SearchHotelUseCase.cs",
+              "RelativeToolTip": "DemoTrip.Core\\UseCases\\SearchHotelUseCase.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T10:07:30.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SearchHotelUseCase_Test.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.UnitTests\\SearchHotelUseCase_Test.cs",
+              "RelativeDocumentMoniker": "DemoTrip.UnitTests\\SearchHotelUseCase_Test.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.UnitTests\\SearchHotelUseCase_Test.cs",
+              "RelativeToolTip": "DemoTrip.UnitTests\\SearchHotelUseCase_Test.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T10:07:23.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SearchTripUseCase_Test.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.UnitTests\\SearchTripUseCase_Test.cs",
+              "RelativeDocumentMoniker": "DemoTrip.UnitTests\\SearchTripUseCase_Test.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.UnitTests\\SearchTripUseCase_Test.cs",
+              "RelativeToolTip": "DemoTrip.UnitTests\\SearchTripUseCase_Test.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T10:03:29.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SearchFlightUseCase_Test.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.UnitTests\\SearchFlightUseCase_Test.cs",
+              "RelativeDocumentMoniker": "DemoTrip.UnitTests\\SearchFlightUseCase_Test.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.UnitTests\\SearchFlightUseCase_Test.cs",
+              "RelativeToolTip": "DemoTrip.UnitTests\\SearchFlightUseCase_Test.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAADwvzYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T10:02:29.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SearchFlightResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\UseCases\\SearchFlightResponseDto.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Core\\UseCases\\SearchFlightResponseDto.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\UseCases\\SearchFlightResponseDto.cs",
+              "RelativeToolTip": "DemoTrip.Core\\UseCases\\SearchFlightResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T10:02:18.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SearchFlightRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\UseCases\\SearchFlightRequestDto.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Core\\UseCases\\SearchFlightRequestDto.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\UseCases\\SearchFlightRequestDto.cs",
+              "RelativeToolTip": "DemoTrip.Core\\UseCases\\SearchFlightRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T10:01:40.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SearchFlightUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\UseCases\\SearchFlightUseCase.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Core\\UseCases\\SearchFlightUseCase.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\UseCases\\SearchFlightUseCase.cs",
+              "RelativeToolTip": "DemoTrip.Core\\UseCases\\SearchFlightUseCase.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T10:01:33.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchTripUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\UseCases\\SearchTripUseCase.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Core\\UseCases\\SearchTripUseCase.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Core\\UseCases\\SearchTripUseCase.cs",
+              "RelativeToolTip": "DemoTrip.Core\\UseCases\\SearchTripUseCase.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwC4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T10:01:29.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "flights_with_names.csv",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Infrastructure\\flights_with_names.csv",
+              "RelativeDocumentMoniker": "DemoTrip.Infrastructure\\flights_with_names.csv",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Infrastructure\\flights_with_names.csv",
+              "RelativeToolTip": "DemoTrip.Infrastructure\\flights_with_names.csv",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-06-20T09:58:21.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "hotels.csv",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Infrastructure\\hotels.csv",
+              "RelativeDocumentMoniker": "DemoTrip.Infrastructure\\hotels.csv",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Infrastructure\\hotels.csv",
+              "RelativeToolTip": "DemoTrip.Infrastructure\\hotels.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2025-06-20T09:58:20.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TripsController.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\Controllers\\TripsController.cs",
+              "RelativeDocumentMoniker": "DemoTrip.Web\\Controllers\\TripsController.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\Ex09_Conception_Architecture\\DemoTrip\\DemoTrip.Web\\Controllers\\TripsController.cs",
+              "RelativeToolTip": "DemoTrip.Web\\Controllers\\TripsController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwCwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T09:21:38.55Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10_Final\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE73B563-585C-4B00-B7EC-78B3FC312C64}|ex10_Final\\ex10_Final.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex10_final\\ex10_final\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE73B563-585C-4B00-B7EC-78B3FC312C64}|ex10_Final\\ex10_Final.csproj|solutionrelative:ex10_final\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE73B563-585C-4B00-B7EC-78B3FC312C64}|ex10_Final\\ex10_Final.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex10_final\\ex10_final\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE73B563-585C-4B00-B7EC-78B3FC312C64}|ex10_Final\\ex10_Final.csproj|solutionrelative:ex10_final\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE73B563-585C-4B00-B7EC-78B3FC312C64}|ex10_Final\\ex10_Final.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex10_final\\ex10_final\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE73B563-585C-4B00-B7EC-78B3FC312C64}|ex10_Final\\ex10_Final.csproj|solutionrelative:ex10_final\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE73B563-585C-4B00-B7EC-78B3FC312C64}|ex10_Final\\ex10_Final.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex10_final\\ex10_final\\data\\migrations\\20250618124710_shippingdhl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE73B563-585C-4B00-B7EC-78B3FC312C64}|ex10_Final\\ex10_Final.csproj|solutionrelative:ex10_final\\data\\migrations\\20250618124710_shippingdhl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE73B563-585C-4B00-B7EC-78B3FC312C64}|ex10_Final\\ex10_Final.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex10_final\\ex10_final\\controllers\\deliveryassignmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE73B563-585C-4B00-B7EC-78B3FC312C64}|ex10_Final\\ex10_Final.csproj|solutionrelative:ex10_final\\controllers\\deliveryassignmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE73B563-585C-4B00-B7EC-78B3FC312C64}|ex10_Final\\ex10_Final.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex10_final\\ex10_final\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE73B563-585C-4B00-B7EC-78B3FC312C64}|ex10_Final\\ex10_Final.csproj|solutionrelative:ex10_final\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE73B563-585C-4B00-B7EC-78B3FC312C64}|ex10_Final\\ex10_Final.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex10_final\\ex10_final\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE73B563-585C-4B00-B7EC-78B3FC312C64}|ex10_Final\\ex10_Final.csproj|solutionrelative:ex10_final\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10_Final\\ex10_Final\\Models\\Article.cs",
+              "RelativeDocumentMoniker": "ex10_Final\\Models\\Article.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10_Final\\ex10_Final\\Models\\Article.cs",
+              "RelativeToolTip": "ex10_Final\\Models\\Article.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:22:59.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10_Final\\ex10_Final\\Views\\Order\\Create.cshtml",
+              "RelativeDocumentMoniker": "ex10_Final\\Views\\Order\\Create.cshtml",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10_Final\\ex10_Final\\Views\\Order\\Create.cshtml",
+              "RelativeToolTip": "ex10_Final\\Views\\Order\\Create.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAD4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T11:21:19.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250618124710_ShippingDHL.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10_Final\\ex10_Final\\Data\\Migrations\\20250618124710_ShippingDHL.cs",
+              "RelativeDocumentMoniker": "ex10_Final\\Data\\Migrations\\20250618124710_ShippingDHL.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10_Final\\ex10_Final\\Data\\Migrations\\20250618124710_ShippingDHL.cs",
+              "RelativeToolTip": "ex10_Final\\Data\\Migrations\\20250618124710_ShippingDHL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:47:10.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10_Final\\ex10_Final\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "ex10_Final\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10_Final\\ex10_Final\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "ex10_Final\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAkwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:44:39.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeliveryAssignmentController.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10_Final\\ex10_Final\\Controllers\\DeliveryAssignmentController.cs",
+              "RelativeDocumentMoniker": "ex10_Final\\Controllers\\DeliveryAssignmentController.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10_Final\\ex10_Final\\Controllers\\DeliveryAssignmentController.cs",
+              "RelativeToolTip": "ex10_Final\\Controllers\\DeliveryAssignmentController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAgwIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:44:29.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10_Final\\ex10_Final\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "ex10_Final\\Views\\Order\\Details.cshtml",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10_Final\\ex10_Final\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "ex10_Final\\Views\\Order\\Details.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T12:13:21.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10_Final\\ex10_Final\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ex10_Final\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10_Final\\ex10_Final\\Models\\Order.cs",
+              "RelativeToolTip": "ex10_Final\\Models\\Order.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T12:32:31.132Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex03_LINQ\ex03_LINQ\bin\Debug\net8.0\ex03_LINQ.exe
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex03_LINQ\ex03_LINQ\bin\Debug\net8.0\ex03_LINQ.deps.json
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex03_LINQ\ex03_LINQ\bin\Debug\net8.0\ex03_LINQ.runtimeconfig.json
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex03_LINQ\ex03_LINQ\bin\Debug\net8.0\ex03_LINQ.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex03_LINQ\ex03_LINQ\bin\Debug\net8.0\ex03_LINQ.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex03_LINQ\ex03_LINQ\obj\Debug\net8.0\ex03_LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex03_LINQ\ex03_LINQ\obj\Debug\net8.0\ex03_LINQ.AssemblyInfoInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex03_LINQ\ex03_LINQ\obj\Debug\net8.0\ex03_LINQ.AssemblyInfo.cs
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex03_LINQ\ex03_LINQ\obj\Debug\net8.0\ex03_LINQ.csproj.CoreCompileInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex03_LINQ\ex03_LINQ\obj\Debug\net8.0\ex03_LINQ.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex03_LINQ\ex03_LINQ\obj\Debug\net8.0\refint\ex03_LINQ.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex03_LINQ\ex03_LINQ\obj\Debug\net8.0\ex03_LINQ.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex03_LINQ\ex03_LINQ\obj\Debug\net8.0\ex03_LINQ.genruntimeconfig.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex03_LINQ\ex03_LINQ\obj\Debug\net8.0\ref\ex03_LINQ.dll

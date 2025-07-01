@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "ex10+DHL",
+    "Projects": [
+      {
+        "Path": "ex10_Final\\ex10_Final.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "DHLFakeApi\\DHLFakeApi.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

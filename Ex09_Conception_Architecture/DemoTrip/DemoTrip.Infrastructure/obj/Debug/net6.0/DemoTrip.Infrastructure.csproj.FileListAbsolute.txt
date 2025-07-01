@@ -1,0 +1,16 @@
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\bin\Debug\net6.0\flights_with_names.csv
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\bin\Debug\net6.0\DemoTrip.Infrastructure.deps.json
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\bin\Debug\net6.0\DemoTrip.Infrastructure.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\bin\Debug\net6.0\DemoTrip.Infrastructure.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\bin\Debug\net6.0\DemoTrip.Core.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\bin\Debug\net6.0\DemoTrip.Core.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\obj\Debug\net6.0\DemoTrip.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\obj\Debug\net6.0\DemoTrip.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\obj\Debug\net6.0\DemoTrip.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\obj\Debug\net6.0\DemoTrip.Infrastructure.AssemblyInfo.cs
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\obj\Debug\net6.0\DemoTrip.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\obj\Debug\net6.0\DemoTrip.1CE6B50D.Up2Date
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\obj\Debug\net6.0\DemoTrip.Infrastructure.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\obj\Debug\net6.0\refint\DemoTrip.Infrastructure.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\obj\Debug\net6.0\DemoTrip.Infrastructure.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI\Ex09_Conception_Architecture\DemoTrip\DemoTrip.Infrastructure\obj\Debug\net6.0\ref\DemoTrip.Infrastructure.dll

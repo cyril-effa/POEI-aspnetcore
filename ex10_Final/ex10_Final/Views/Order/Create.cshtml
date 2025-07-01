@@ -1,0 +1,168 @@
+﻿@model ex10_Final.Models.Order
+
+@{
+    ViewData["Title"] = "Create";
+    var articles = (IEnumerable<SelectListItem>)ViewBag.Articles;
+    var articlesPrice = (IDictionary<string, decimal>)ViewBag.ArticlesPrice;
+}
+
+<h1>Create</h1>
+
+<h4>Order</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CustomerId" class="control-label"></label>
+                <input asp-for="CustomerId" class="form-control" readonly />
+                <span asp-validation-for="CustomerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WarehouseId" class="control-label"></label>
+                <select asp-for="WarehouseId" class="form-control" asp-items="ViewBag.Warehouses"></select>
+                <span asp-validation-for="WarehouseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrderDate" class="control-label"></label>
+                <input asp-for="OrderDate" class="form-control"
+                       value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm")" readonly type="datetime-local" />
+                <span asp-validation-for="OrderDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OrderStatus" class="control-label"></label>
+                <input asp-for="OrderStatus" class="form-control"
+                       value="@OrderStatus.Submitted" readonly />
+                <span asp-validation-for="OrderStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Articles</label>
+                <table class="table" id="articlesTable" style="table-layout: fixed;">
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Article</th>
+                            <th style="width: 30%;">Prix unitaire</th>
+                            <th style="width: 20%;">Quantité</th>
+                            <th style="width: 10%;"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model.OrderDetails != null)
+                        {
+                            @for (int i = 0; i < Model.OrderDetails.Count; i++)
+                            {
+                                <tr>
+                                    <td>
+                                        <select asp-for="OrderDetails[@i].ArticleId" class="form-control article-select" asp-items="articles"></select>
+                                        <span asp-validation-for="OrderDetails[@i].ArticleId" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <input asp-for="OrderDetails[@i].UnitPrice" class="form-control unit-price" disabled="disabled"
+                                               value="@(articlesPrice.ContainsKey(Model.OrderDetails[@i].ArticleId.ToString()) ? articlesPrice[Model.OrderDetails[@i].ArticleId.ToString()] : "//")" />
+                                        <span asp-validation-for="OrderDetails[@i].UnitPrice" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <input asp-for="OrderDetails[@i].Quantity" class="form-control quantity" min="1" />
+                                        <span asp-validation-for="OrderDetails[@i].Quantity" class="text-danger"></span>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-success addArticleBtn">+</button>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="form-group">
+                <label>Montant total</label>
+                <input type="text" id="TotalAmount" class="form-control" readonly />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@* Debug temporaire *@
+<pre>@System.Text.Json.JsonSerializer.Serialize(articlesPrice)</pre>
+
+<script>
+    // Dictionnaire ArticleId => Prix
+    var articlePrices = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(articlesPrice));
+    let articleIndex = 1;
+
+    function updateTotalAmount() {
+        let total = 0;
+        document.querySelectorAll('#articlesTable tbody tr').forEach(function (row) {
+            const qty = parseFloat(row.querySelector('.quantity').value) || 0;
+            const price = parseFloat(row.querySelector('.unit-price').value) || 0;
+            if (qty > 0 && price > 0) {
+                total += qty * price;
+            }
+        });
+        document.getElementById('TotalAmount').value = total.toFixed(2);
+    }
+
+    document.getElementById('articlesTable').addEventListener('change', function (e) {
+        if (e.target && e.target.classList.contains('article-select')) {
+            const row = e.target.closest('tr');
+            const articleId = e.target.value;
+            const priceInput = row.querySelector('.unit-price');
+            const qtyInput = row.querySelector('.quantity');
+            const price = articlePrices[articleId];
+            if (articleId && price) {
+                priceInput.value = price;
+                qtyInput.value = 1;
+            } else {
+                priceInput.value = '';
+                qtyInput.value = '';
+            }
+            updateTotalAmount();
+        }
+        if (e.target && e.target.classList.contains('quantity')) {
+            updateTotalAmount();
+        }
+    });
+
+    document.getElementById('articlesTable').addEventListener('click', function (e) {
+        if (e.target && e.target.classList.contains('addArticleBtn')) {
+            const table = document.getElementById('articlesTable').getElementsByTagName('tbody')[0];
+            const newRow = table.rows[0].cloneNode(true);
+
+            // Met à jour les index des champs
+            newRow.querySelectorAll('select, input').forEach(function (el) {
+                if (el.name) {
+                    el.name = el.name.replace(/\d+/, articleIndex);
+                    if (el.classList.contains('unit-price')) el.value = '';
+                    if (el.classList.contains('quantity')) el.value = 1;
+                    if (el.classList.contains('article-select')) el.value = '';
+                }
+            });
+
+            // Remplace le bouton "+" par un bouton "-"
+            const btnCell = newRow.querySelector('td:last-child');
+            btnCell.innerHTML = '<button type="button" class="btn btn-danger removeArticleBtn">-</button>';
+
+            table.appendChild(newRow);
+            articleIndex++;
+            updateTotalAmount();
+        }
+        if (e.target && e.target.classList.contains('removeArticleBtn')) {
+            const row = e.target.closest('tr');
+            if (row.parentNode.rows.length > 1) {
+                row.parentNode.removeChild(row);
+                updateTotalAmount();
+            }
+        }
+    });
+
+    document.addEventListener('DOMContentLoaded', updateTotalAmount);
+</script>

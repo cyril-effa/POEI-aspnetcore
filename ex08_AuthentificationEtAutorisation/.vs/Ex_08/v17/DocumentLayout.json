@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex08_authentificationetautorisation\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex08_authentificationetautorisation\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex08_authentificationetautorisation\\models\\bo\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|solutionrelative:models\\bo\\livre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex08_authentificationetautorisation\\controllers\\livrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|solutionrelative:controllers\\livrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex08_authentificationetautorisation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex08_authentificationetautorisation\\views\\livres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|solutionrelative:views\\livres\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex08_authentificationetautorisation\\views\\livres\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|solutionrelative:views\\livres\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex08_authentificationetautorisation\\views\\livres\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|solutionrelative:views\\livres\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex08_authentificationetautorisation\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex08_authentificationetautorisation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F4D4FB4-FA26-4A9E-93FB-8A2DEA50FCE7}|Ex_08.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAcwIMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:54:49.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T09:52:27.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:35:36.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Views\\Livres\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Livres\\Details.cshtml",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Views\\Livres\\Details.cshtml",
+              "RelativeToolTip": "Views\\Livres\\Details.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T09:26:36.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:17:20.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Views\\Livres\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Livres\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Views\\Livres\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Livres\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T09:15:05.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Views\\Livres\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Livres\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Views\\Livres\\Index.cshtml",
+              "RelativeToolTip": "Views\\Livres\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-11T09:12:20.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Livre.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Models\\BO\\Livre.cs",
+              "RelativeDocumentMoniker": "Models\\BO\\Livre.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Models\\BO\\Livre.cs",
+              "RelativeToolTip": "Models\\BO\\Livre.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:08:36.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LivresController.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Controllers\\LivresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LivresController.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Controllers\\LivresController.cs",
+              "RelativeToolTip": "Controllers\\LivresController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:06:19.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex08_AuthentificationEtAutorisation\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T15:01:32.031Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

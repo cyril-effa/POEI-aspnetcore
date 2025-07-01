@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "DemoTrip.Web.Controllers.FlightsController",
+    "Method": "Post",
+    "RelativePath": "api/Flights/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DemoTrip.Web.ViewModels.SearchFlightRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoTrip.Web.Controllers.HotelsController",
+    "Method": "Post",
+    "RelativePath": "api/Hotels/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DemoTrip.Web.ViewModels.SearchHotelRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoTrip.Web.Controllers.TripsController",
+    "Method": "Post",
+    "RelativePath": "api/Trips/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DemoTrip.Web.ViewModels.SearchTripRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,17 @@
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\bin\Debug\net8.0\ex10bis.Infrastructure.deps.json
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\bin\Debug\net8.0\ex10bis.Infrastructure.runtimeconfig.json
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\bin\Debug\net8.0\ex10bis.Infrastructure.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\bin\Debug\net8.0\ex10bis.Infrastructure.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\bin\Debug\net8.0\ex10bis.Core.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\bin\Debug\net8.0\ex10bis.Core.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\obj\Debug\net8.0\ex10bis.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\obj\Debug\net8.0\ex10bis.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\obj\Debug\net8.0\ex10bis.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\obj\Debug\net8.0\ex10bis.Infrastructure.AssemblyInfo.cs
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\obj\Debug\net8.0\ex10bis.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\obj\Debug\net8.0\ex10bis..099BA11D.Up2Date
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\obj\Debug\net8.0\ex10bis.Infrastructure.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\obj\Debug\net8.0\refint\ex10bis.Infrastructure.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\obj\Debug\net8.0\ex10bis.Infrastructure.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\obj\Debug\net8.0\ex10bis.Infrastructure.genruntimeconfig.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Infrastructure\obj\Debug\net8.0\ref\ex10bis.Infrastructure.dll

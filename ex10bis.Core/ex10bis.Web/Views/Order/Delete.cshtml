@@ -1,0 +1,83 @@
+﻿@model ex10bis.Core.Entities.Order
+
+@{
+    ViewData["Title"] = "Delete";
+    var articles = (IEnumerable<SelectListItem>)ViewBag.Articles;
+    var articlesPrice = (IDictionary<string, decimal>)ViewBag.ArticlesPrice;
+}
+
+<h2>Supprimer une commande</h2>
+
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Customer)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Customer.Name)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Warehouse)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Warehouse.Name)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.OrderDate)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.OrderDate)
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.OrderStatus)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.OrderStatus)
+    </dd>
+    <dd class="col-sm-12">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Article</th>
+                    <th>Prix unitaire</th>
+                    <th>Quantité</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var detail in Model.OrderDetails)
+                {
+                    <tr>
+                        <td>@detail.Article.Name</td>
+                        <td>@detail.UnitPrice.ToString("C")</td>
+                        <td>@detail.Quantity</td>
+                        <td>@((detail.UnitPrice * detail.Quantity).ToString("C"))</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.ShippingCost)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.ShippingCost, "{0:C}")
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.TotalAmount)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.TotalAmount, "{0:C}")
+    </dd>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.ShippingDuration)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.ShippingDuration)
+    </dd>
+</dl>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Supprimer</button>
+    <a asp-action="Index" class="btn btn-secondary">Annuler</a>
+</form>

@@ -1,0 +1,71 @@
+﻿@model IEnumerable<ex10bis.Core.Entities.Order>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WarehouseId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ShippingDuration)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WarehouseId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderDate)
+            </td>
+                <td>
+                    @{
+                        string status = item.OrderStatus.ToString();
+                        string bgClass = status switch
+                        {
+                            "Submitted" => "bg-secondary text-white",
+                            "Processing" => "bg-info text-dark",
+                            "Shipped" => "bg-warning text-dark",
+                            "Delivered" => "bg-success text-white",
+                            "Cancelled" => "bg-danger text-white",
+                            _ => "bg-light"
+                        };
+                    }
+                    <span class="px-2 py-1 rounded @bgClass">@status</span>
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShippingDuration)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

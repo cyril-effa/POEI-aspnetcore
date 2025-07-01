@@ -1,0 +1,12 @@
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Core\bin\Debug\net8.0\ex10bis.Core.deps.json
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Core\bin\Debug\net8.0\ex10bis.Core.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Core\bin\Debug\net8.0\ex10bis.Core.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Core\obj\Debug\net8.0\ex10bis.Core.csproj.AssemblyReference.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Core\obj\Debug\net8.0\ex10bis.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Core\obj\Debug\net8.0\ex10bis.Core.AssemblyInfoInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Core\obj\Debug\net8.0\ex10bis.Core.AssemblyInfo.cs
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Core\obj\Debug\net8.0\ex10bis.Core.csproj.CoreCompileInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Core\obj\Debug\net8.0\ex10bis.Core.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Core\obj\Debug\net8.0\refint\ex10bis.Core.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Core\obj\Debug\net8.0\ex10bis.Core.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex10bis.Core\ex10bis.Core\obj\Debug\net8.0\ref\ex10bis.Core.dll

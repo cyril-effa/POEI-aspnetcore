@@ -1,0 +1,342 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\vehicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\vehicule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\v_lagouna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\v_lagouna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\v_d4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\v_d4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\v_a300b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\v_a300b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\moteurdiesel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\moteurdiesel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\moteurelectrique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\moteurelectrique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\moteuressence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\moteuressence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\moteurhybride.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\moteurhybride.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\opt_barredetoit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\opt_barredetoit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\opt_climatisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\opt_climatisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\opt_gps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\opt_gps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\opt_siegechauffant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\opt_siegechauffant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\opt_vitreelectrique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\opt_vitreelectrique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\moteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\moteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\marque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\marque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\ioption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\ioption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\garage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex01_garage\\ex01_garage\\typemoteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C8481B8-00C7-4C13-AFE3-5D69C96AB9D2}|ex01_Garage\\ex01_Garage.csproj|solutionrelative:ex01_garage\\typemoteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Opt_GPS.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Opt_GPS.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\Opt_GPS.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Opt_GPS.cs",
+              "RelativeToolTip": "ex01_Garage\\Opt_GPS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:34:17.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Opt_Climatisation.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Opt_Climatisation.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\Opt_Climatisation.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Opt_Climatisation.cs",
+              "RelativeToolTip": "ex01_Garage\\Opt_Climatisation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:34:32.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Opt_SiegeChauffant.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Opt_SiegeChauffant.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\Opt_SiegeChauffant.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Opt_SiegeChauffant.cs",
+              "RelativeToolTip": "ex01_Garage\\Opt_SiegeChauffant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:34:51.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MoteurDiesel.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\MoteurDiesel.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\MoteurDiesel.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\MoteurDiesel.cs",
+              "RelativeToolTip": "ex01_Garage\\MoteurDiesel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:36:35.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MoteurHybride.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\MoteurHybride.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\MoteurHybride.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\MoteurHybride.cs",
+              "RelativeToolTip": "ex01_Garage\\MoteurHybride.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:35:48.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MoteurEssence.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\MoteurEssence.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\MoteurEssence.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\MoteurEssence.cs",
+              "RelativeToolTip": "ex01_Garage\\MoteurEssence.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:36:20.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MoteurElectrique.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\MoteurElectrique.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\MoteurElectrique.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\MoteurElectrique.cs",
+              "RelativeToolTip": "ex01_Garage\\MoteurElectrique.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:35:57.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "V_Lagouna.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\V_Lagouna.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\V_Lagouna.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\V_Lagouna.cs",
+              "RelativeToolTip": "ex01_Garage\\V_Lagouna.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:33:24.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "V_D4.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\V_D4.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\V_D4.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\V_D4.cs",
+              "RelativeToolTip": "ex01_Garage\\V_D4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:33:32.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "V_A300B.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\V_A300B.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\V_A300B.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\V_A300B.cs",
+              "RelativeToolTip": "ex01_Garage\\V_A300B.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:33:38.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vehicule.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Vehicule.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\Vehicule.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Vehicule.cs",
+              "RelativeToolTip": "ex01_Garage\\Vehicule.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wCMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:25:51.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Opt_BarreDeToit.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Opt_BarreDeToit.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\Opt_BarreDeToit.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Opt_BarreDeToit.cs",
+              "RelativeToolTip": "ex01_Garage\\Opt_BarreDeToit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:34:43.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Opt_VitreElectrique.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Opt_VitreElectrique.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\Opt_VitreElectrique.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Opt_VitreElectrique.cs",
+              "RelativeToolTip": "ex01_Garage\\Opt_VitreElectrique.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:35:00.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Moteur.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Moteur.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\Moteur.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Moteur.cs",
+              "RelativeToolTip": "ex01_Garage\\Moteur.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:35:38.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Marque.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Marque.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\Marque.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Marque.cs",
+              "RelativeToolTip": "ex01_Garage\\Marque.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:35:18.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Program.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\Program.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Program.cs",
+              "RelativeToolTip": "ex01_Garage\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwEgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:24:59.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Garage.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Garage.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\Garage.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\Garage.cs",
+              "RelativeToolTip": "ex01_Garage\\Garage.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:25:36.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IOption.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\IOption.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\IOption.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\IOption.cs",
+              "RelativeToolTip": "ex01_Garage\\IOption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:33:54.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TypeMoteur.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\TypeMoteur.cs",
+              "RelativeDocumentMoniker": "ex01_Garage\\TypeMoteur.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex01_Garage\\ex01_Garage\\TypeMoteur.cs",
+              "RelativeToolTip": "ex01_Garage\\TypeMoteur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:35:26.872Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

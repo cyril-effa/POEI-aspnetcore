@@ -1,0 +1,14 @@
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex01_Garage\ex01_Garage\bin\Debug\net8.0\ex01_Garage.exe
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex01_Garage\ex01_Garage\bin\Debug\net8.0\ex01_Garage.deps.json
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex01_Garage\ex01_Garage\bin\Debug\net8.0\ex01_Garage.runtimeconfig.json
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex01_Garage\ex01_Garage\bin\Debug\net8.0\ex01_Garage.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex01_Garage\ex01_Garage\bin\Debug\net8.0\ex01_Garage.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex01_Garage\ex01_Garage\obj\Debug\net8.0\ex01_Garage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex01_Garage\ex01_Garage\obj\Debug\net8.0\ex01_Garage.AssemblyInfoInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex01_Garage\ex01_Garage\obj\Debug\net8.0\ex01_Garage.AssemblyInfo.cs
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex01_Garage\ex01_Garage\obj\Debug\net8.0\ex01_Garage.csproj.CoreCompileInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex01_Garage\ex01_Garage\obj\Debug\net8.0\ex01_Garage.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex01_Garage\ex01_Garage\obj\Debug\net8.0\refint\ex01_Garage.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex01_Garage\ex01_Garage\obj\Debug\net8.0\ex01_Garage.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex01_Garage\ex01_Garage\obj\Debug\net8.0\ex01_Garage.genruntimeconfig.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI\ex01_Garage\ex01_Garage\obj\Debug\net8.0\ref\ex01_Garage.dll

@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23397C1D-7C95-4C3E-9258-5FE0629040EA}|BO\\BO.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex05_mvc_attribut\\bo\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23397C1D-7C95-4C3E-9258-5FE0629040EA}|BO\\BO.csproj|solutionrelative:bo\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex05_mvc_attribut\\exercice 4 mvc\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|solutionrelative:exercice 4 mvc\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23397C1D-7C95-4C3E-9258-5FE0629040EA}|BO\\BO.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex05_mvc_attribut\\bo\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23397C1D-7C95-4C3E-9258-5FE0629040EA}|BO\\BO.csproj|solutionrelative:bo\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23397C1D-7C95-4C3E-9258-5FE0629040EA}|BO\\BO.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex05_mvc_attribut\\bo\\validorderstatusattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23397C1D-7C95-4C3E-9258-5FE0629040EA}|BO\\BO.csproj|solutionrelative:bo\\validorderstatusattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23397C1D-7C95-4C3E-9258-5FE0629040EA}|BO\\BO.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex05_mvc_attribut\\bo\\minelementsattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23397C1D-7C95-4C3E-9258-5FE0629040EA}|BO\\BO.csproj|solutionrelative:bo\\minelementsattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex05_mvc_attribut\\exercice 4 mvc\\validorderstatusattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|solutionrelative:exercice 4 mvc\\validorderstatusattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex05_mvc_attribut\\exercice 4 mvc\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|solutionrelative:exercice 4 mvc\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex05_mvc_attribut\\exercice 4 mvc\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|solutionrelative:exercice 4 mvc\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex05_mvc_attribut\\exercice 4 mvc\\minelementsattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|solutionrelative:exercice 4 mvc\\minelementsattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23397C1D-7C95-4C3E-9258-5FE0629040EA}|BO\\BO.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex05_mvc_attribut\\bo\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23397C1D-7C95-4C3E-9258-5FE0629040EA}|BO\\BO.csproj|solutionrelative:bo\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23397C1D-7C95-4C3E-9258-5FE0629040EA}|BO\\BO.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex05_mvc_attribut\\bo\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23397C1D-7C95-4C3E-9258-5FE0629040EA}|BO\\BO.csproj|solutionrelative:bo\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex05_mvc_attribut\\exercice 4 mvc\\controllers\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|solutionrelative:exercice 4 mvc\\controllers\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex05_mvc_attribut\\exercice 4 mvc\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|solutionrelative:exercice 4 mvc\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex05_mvc_attribut\\exercice 4 mvc\\models\\warehousevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|solutionrelative:exercice 4 mvc\\models\\warehousevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei\\ex05_mvc_attribut\\exercice 4 mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6934C55-DB7A-4C8E-8DF3-F84A447472DF}|Exercice 4 MVC\\Exercice 5 MVC_Attribut.csproj|solutionrelative:exercice 4 mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\BO\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BO\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\BO\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BO\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T08:48:32.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ValidOrderStatusAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\BO\\ValidOrderStatusAttribute.cs",
+              "RelativeDocumentMoniker": "BO\\ValidOrderStatusAttribute.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\BO\\ValidOrderStatusAttribute.cs",
+              "RelativeToolTip": "BO\\ValidOrderStatusAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:25:03.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MinElementsAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\BO\\MinElementsAttribute.cs",
+              "RelativeDocumentMoniker": "BO\\MinElementsAttribute.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\BO\\MinElementsAttribute.cs",
+              "RelativeToolTip": "BO\\MinElementsAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:24:58.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ValidOrderStatusAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\ValidOrderStatusAttribute.cs",
+              "RelativeDocumentMoniker": "Exercice 4 MVC\\ValidOrderStatusAttribute.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\ValidOrderStatusAttribute.cs",
+              "RelativeToolTip": "Exercice 4 MVC\\ValidOrderStatusAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:22:08.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\Models\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "Exercice 4 MVC\\Models\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\Models\\OrderViewModel.cs",
+              "RelativeToolTip": "Exercice 4 MVC\\Models\\OrderViewModel.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA9wCwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:52:55.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Mapping.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\Mapping.cs",
+              "RelativeDocumentMoniker": "Exercice 4 MVC\\Mapping.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\Mapping.cs",
+              "RelativeToolTip": "Exercice 4 MVC\\Mapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:57:59.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\BO\\Order.cs",
+              "RelativeDocumentMoniker": "BO\\Order.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\BO\\Order.cs",
+              "RelativeToolTip": "BO\\Order.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:53:01.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MinElementsAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\MinElementsAttribute.cs",
+              "RelativeDocumentMoniker": "Exercice 4 MVC\\MinElementsAttribute.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\MinElementsAttribute.cs",
+              "RelativeToolTip": "Exercice 4 MVC\\MinElementsAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:22:10.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\BO\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "BO\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\BO\\OrderDetail.cs",
+              "RelativeToolTip": "BO\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:58:27.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Exercice 4 MVC\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Exercice 4 MVC\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:42:32.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "Exercice 4 MVC\\Service\\OrderService.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\Service\\OrderService.cs",
+              "RelativeToolTip": "Exercice 4 MVC\\Service\\OrderService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T12:12:46.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Warehouse.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\BO\\Warehouse.cs",
+              "RelativeDocumentMoniker": "BO\\Warehouse.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\BO\\Warehouse.cs",
+              "RelativeToolTip": "BO\\Warehouse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:52:13.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WarehouseController.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\Controllers\\WarehouseController.cs",
+              "RelativeDocumentMoniker": "Exercice 4 MVC\\Controllers\\WarehouseController.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\Controllers\\WarehouseController.cs",
+              "RelativeToolTip": "Exercice 4 MVC\\Controllers\\WarehouseController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:42:31.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WarehouseVM.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\Models\\WarehouseVM.cs",
+              "RelativeDocumentMoniker": "Exercice 4 MVC\\Models\\WarehouseVM.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\Models\\WarehouseVM.cs",
+              "RelativeToolTip": "Exercice 4 MVC\\Models\\WarehouseVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:52:04.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Exercice 4 MVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex05_MVC_Attribut\\Exercice 4 MVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Exercice 4 MVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T11:52:39.44Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

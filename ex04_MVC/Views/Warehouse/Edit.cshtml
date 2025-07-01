@@ -1,0 +1,56 @@
+﻿@model Exercice_4_MVC.Models.Warehouse
+
+@{
+    ViewData["Title"] = "Edit";
+
+    var generatedCode = TempData["GeneratedCode"] as string;
+}
+
+<h1>Edit</h1>
+
+<h4>Warehouse</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        @{
+            ViewData["FormAction"] = "Edit";
+        }
+        @await Html.PartialAsync("_WarehouseForm", Model)
+        <br />
+        <form asp-action="GenerateCode" method="post" class="mt-2">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-secondary">Afficher le code généré</button>
+        </form>
+        @if (generatedCode != null)
+        {
+            <div class="alert alert-info mt-2">
+                <strong>Code généré :</strong> @generatedCode
+            </div>
+        }
+        <br />
+        <form asp-action="VerifyCode" method="post" class="mt-3">
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label for="inputCode">Code d'accès</label>
+                <input type="text" name="inputCode" class="form-control" id="inputCode" required />
+            </div>
+            <button type="submit" class="btn btn-info mt-2">Vérifier le code</button>
+        </form>
+        @if (ViewBag.VerificationResult != null)
+        {
+            <div class="alert @(ViewBag.VerificationResult == "Code OK" ? "alert-success" : "alert-danger") mt-2">
+                @ViewBag.VerificationResult
+            </div>
+        }
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

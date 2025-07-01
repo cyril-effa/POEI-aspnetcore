@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ex07_WarehouseAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ex07_WarehouseAPI.Controllers.ArticleController.CreateArticle(ex07_WarehouseAPI.Models.Article)">
+            <summary>
+            Ajoute un nouvel article à la liste des articles.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ex07_WarehouseAPI.Controllers.ArticleController.GetArticleById(System.Int32)">
+            <summary>
+            Récupère un article par son identifiant.
+            </summary>
+            <param name="id">Identifiant de l'article</param>
+            <returns>Retourne l'Article</returns>
+        </member>
+        <member name="M:ex07_WarehouseAPI.Controllers.ArticleController.GetAllArticles">
+            <summary>
+            Récupère la liste de tous les articles.
+            </summary>
+            <returns>Retourne les articles</returns>
+        </member>
+        <member name="M:ex07_WarehouseAPI.Controllers.CustomerController.GetAllByTotalAmount">
+            <summary>
+            Récupère la liste de tous les clients, triés par montant total des commandes décroissant
+            </summary>
+            <returns>La liste des clients triés</returns>
+        </member>
+        <member name="M:ex07_WarehouseAPI.Controllers.OrderController.CreateOrder(ex07_WarehouseAPI.Models.OrderDto)">
+            <summary>
+            Ajoute une nouvelle commande à la liste des commandes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ex07_WarehouseAPI.Controllers.OrderController.GetOrderById(System.Int32)">
+            <summary>
+            Récupère une commande par son identifiant.
+            </summary>
+            <param name="id">Identifiant de la commande</param>
+            <returns>Retourne la commande</returns>
+        </member>
+        <member name="M:ex07_WarehouseAPI.Controllers.OrderController.UpdateOrderStatus(System.Int32,System.String)">
+            <summary>
+            Met à jour le statut d'une commande.
+            </summary>
+            <param name="orderId">Identifiant de la commande</param>
+            <param name="status">Status de la commande</param>
+            <returns></returns>
+        </member>
+        <member name="M:ex07_WarehouseAPI.Controllers.OrderController.DeleteOrder(System.Int32)">
+            <summary>
+            Supprime une commande par son identifiant.
+            </summary>
+            <param name="id">Identifiant de la commande</param>
+            <returns></returns>
+        </member>
+        <member name="M:ex07_WarehouseAPI.Controllers.StatisticsController.GetGlobalStatistics">
+            <summary>
+            Page de statistiques globales
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ex07_WarehouseAPI.Controllers.WarehouseController.GetAll">
+            <summary>
+            Récupère la liste de tous les entrepots
+            </summary>
+            <returns>La liste des entrepots</returns>
+        </member>
+        <member name="T:ex07_WarehouseAPI.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:ex07_WarehouseAPI.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ex07_WarehouseAPI.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ex07_WarehouseAPI.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ex07_WarehouseAPI.Migrations.AddedCustomer">
+            <inheritdoc />
+        </member>
+        <member name="M:ex07_WarehouseAPI.Migrations.AddedCustomer.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ex07_WarehouseAPI.Migrations.AddedCustomer.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ex07_WarehouseAPI.Migrations.AddedCustomer.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ex07_WarehouseAPI.Migrations.AddedRelations">
+            <inheritdoc />
+        </member>
+        <member name="M:ex07_WarehouseAPI.Migrations.AddedRelations.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ex07_WarehouseAPI.Migrations.AddedRelations.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ex07_WarehouseAPI.Migrations.AddedRelations.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ex07_WarehouseAPI.Migrations.CalculatedFields">
+            <inheritdoc />
+        </member>
+        <member name="M:ex07_WarehouseAPI.Migrations.CalculatedFields.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ex07_WarehouseAPI.Migrations.CalculatedFields.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ex07_WarehouseAPI.Migrations.CalculatedFields.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ex07_WarehouseAPI.Migrations.AddedSomeRules">
+            <inheritdoc />
+        </member>
+        <member name="M:ex07_WarehouseAPI.Migrations.AddedSomeRules.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ex07_WarehouseAPI.Migrations.AddedSomeRules.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ex07_WarehouseAPI.Migrations.AddedSomeRules.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="P:ex07_WarehouseAPI.Models.Article.Id">
+            <summary>
+            Obtient ou définit l'identifiant de l'article
+            </summary>
+        </member>
+        <member name="P:ex07_WarehouseAPI.Models.Article.Name">
+            <summary>
+            Obtient ou définit le nom de l'article
+            </summary>
+        </member>
+        <member name="P:ex07_WarehouseAPI.Models.Article.Description">
+            <summary>
+            Obtient ou définit la description d'un article
+            </summary>
+        </member>
+        <member name="P:ex07_WarehouseAPI.Models.Article.Price">
+            <summary>
+            Obtient ou définit le prix unitaire d'un article
+            </summary>
+        </member>
+        <member name="P:ex07_WarehouseAPI.Models.Article.StockQuantity">
+            <summary>
+             Obtient ou définit la quantité en stock pour un article
+            </summary>
+        </member>
+        <member name="P:ex07_WarehouseAPI.Models.Warehouse.CodeAccesMD5">
+            <summary>
+            Cette liste contient les codes accès du warehouse en md5.
+            </summary>
+        </member>
+    </members>
+</doc>
