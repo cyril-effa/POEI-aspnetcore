@@ -28,6 +28,33 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.PostalCode)
         </dd>
+        @if (@Model.Orders.Count > 0)
+        {
+            <dd class="col-sm-12">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Client</th>
+                            <th>N° Commande</th>
+                            <th>Date</th>
+                            <th>Montant total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var order in Model.Orders)
+                        {
+                            <tr>
+                                <td>@order.Customer.Name</td>
+                                <td>@order.Id</td>
+                                <td>@order.OrderDate</td>
+                                <td>@(order.TotalAmount.ToString("C"))</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </dd>
+        }
+
     </dl>
 </div>
 <div>

@@ -10,8 +10,15 @@ namespace ex10bis.Infrastructure.Repositories
         private readonly ApplicationDbContext _context;
         public WarehouseRepository(ApplicationDbContext context) => _context = context;
 
-        public async Task<List<Warehouse>> ListAsync() => await _context.Warehouse.ToListAsync();
-        public async Task<Warehouse?> GetByIdAsync(int id) => await _context.Warehouse.FindAsync(id);
+        public async Task<List<Warehouse>> ListAsync() => await _context.Warehouse.Include(w => w.Orders)
+                                                                                  .ThenInclude(o => o.Customer)
+                                                                                  .ToListAsync();
+        public async Task<Warehouse?> GetByIdAsync(int id) => await _context.Warehouse.Include(w => w.Orders)
+                                                                                      .ThenInclude(o => o.Customer)
+                                                                                      .Include(w => w.Orders)
+                                                                                      .ThenInclude(o => o.OrderDetails)
+                                                                                      .ThenInclude(od => od.Article)
+                                                                                      .FirstOrDefaultAsync(w => w.Id == id);
         public async Task AddAsync(Warehouse warehouse)
         {
             _context.Warehouse.Add(warehouse);

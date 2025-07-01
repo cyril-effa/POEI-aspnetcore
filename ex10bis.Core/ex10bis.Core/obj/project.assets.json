@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10bis.Core\\ex10bis.Core\\ex10bis.Core.csproj",
+      "projectUniqueName": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\ex10bis.Core\\ex10bis.Core\\ex10bis.Core.csproj",
       "projectName": "ex10bis.Core",
-      "projectPath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10bis.Core\\ex10bis.Core\\ex10bis.Core.csproj",
+      "projectPath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\ex10bis.Core\\ex10bis.Core\\ex10bis.Core.csproj",
       "packagesPath": "C:\\Users\\CYRIL.RASTEL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10bis.Core\\ex10bis.Core\\obj\\",
+      "outputPath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\ex10bis.Core\\ex10bis.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

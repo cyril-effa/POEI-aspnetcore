@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d51Qtm23Ibc=",
+  "dgSpecHash": "LI199o7/KSA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10bis.Core\\ex10bis.Core\\ex10bis.Core.csproj",
+  "projectFilePath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\ex10bis.Core\\ex10bis.Core\\ex10bis.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CYRIL.RASTEL\\.nuget\\packages\\ardalis.specification\\9.2.0\\ardalis.specification.9.2.0.nupkg.sha512"
   ],

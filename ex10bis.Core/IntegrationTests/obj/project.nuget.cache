@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2XLNbxYcpEQ=",
+  "dgSpecHash": "fKN1ltFM0JA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10bis.Core\\IntegrationTests\\IntegrationTests.csproj",
+  "projectFilePath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\ex10bis.Core\\IntegrationTests\\IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CYRIL.RASTEL\\.nuget\\packages\\ardalis.specification\\9.2.0\\ardalis.specification.9.2.0.nupkg.sha512",
     "C:\\Users\\CYRIL.RASTEL\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

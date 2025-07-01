@@ -59,10 +59,7 @@ namespace ex10bis.Web
 
             // Add delivery services
             builder.Services.AddScoped<IDeliveryRepository, DeliveryRepository>()
-                            .AddScoped<ICreateDeliveryUseCase, CreateDeliveryUseCase>()
-                            .AddScoped<IEditDeliveryUseCase, EditDeliveryUseCase>()
-                            .AddScoped<IDeleteDeliveryUseCase, DeleteDeliveryUseCase>()
-                            .AddScoped<IReadDeliveryUseCase, ReadDeliveryUseCase>();
+                            .AddScoped<ICreateDeliveryUseCase, CreateDeliveryUseCase>();
             builder.Services.AddScoped<IDeliverySlotRepository, DeliverySlotRepository>();
             builder.Services.AddScoped<IFactureRepository, FactureRepository>();
 

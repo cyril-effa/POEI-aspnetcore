@@ -12,8 +12,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace ex10bis.Web.Controllers
 {
     [Authorize(Roles = "livreur,magasinier")]
-    public class DeliveryController (IDeliveryRepository deliveryRepository, ICreateDeliveryUseCase createDeliveryUseCase, IEditDeliveryUseCase editDeliveryUseCase, IDeleteDeliveryUseCase deleteDeliveryUseCase, IReadDeliveryUseCase readDeliveryUseCase,
-                                     IOrderRepository orderRepository, ICustomerRepository customerRepository, IFactureRepository factureRepository, UserManager<IdentityUser> userManager) : BaseController
+    public class DeliveryController (IDeliveryRepository deliveryRepository, ICreateDeliveryUseCase createDeliveryUseCase, IOrderRepository orderRepository, ICustomerRepository customerRepository, IFactureRepository factureRepository, UserManager<IdentityUser> userManager) : BaseController
     {
 
         // GET: DeliveryAssignment
@@ -29,7 +28,7 @@ namespace ex10bis.Web.Controllers
                 })
                 .ToList();
 
-            // Pré-sélectionner le livreur connecté si c'est un livreur
+            // Pré-sélectionner l'utilisateur connecté si c'est un livreur
             var currentUser = await userManager.GetUserAsync(User);
             if (User.IsInRole("livreur"))
             {

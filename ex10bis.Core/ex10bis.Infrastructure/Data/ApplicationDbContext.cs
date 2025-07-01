@@ -32,6 +32,11 @@ namespace ex10bis.Infrastructure.Data
                 .HasOne(o => o.Facture)
                 .WithOne(f => f.Order)
                 .HasForeignKey<Facture>(f => f.OrderId);
+
+            modelBuilder.Entity<Order>()
+                .HasOne(o => o.Warehouse)
+                .WithMany(w => w.Orders)
+                .HasForeignKey(o => o.WarehouseId);
         }
     }
 }

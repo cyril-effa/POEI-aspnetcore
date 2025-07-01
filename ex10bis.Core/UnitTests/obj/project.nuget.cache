@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mzSgWILFWl0=",
+  "dgSpecHash": "lHFiEXW6UNI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI\\ex10bis.Core\\UnitTests\\UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\ex10bis.Core\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CYRIL.RASTEL\\.nuget\\packages\\ardalis.specification\\9.2.0\\ardalis.specification.9.2.0.nupkg.sha512",
     "C:\\Users\\CYRIL.RASTEL\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",

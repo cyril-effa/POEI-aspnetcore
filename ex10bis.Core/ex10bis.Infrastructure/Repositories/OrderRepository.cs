@@ -10,7 +10,9 @@ namespace ex10bis.Infrastructure.Repositories
         private readonly ApplicationDbContext _context;
         public OrderRepository(ApplicationDbContext context) => _context = context;
 
-        public async Task<List<Order>> ListAsync() => await _context.Order.ToListAsync();
+        public async Task<List<Order>> ListAsync() => await _context.Order.Include(o => o.Customer)
+                                                                          .Include(o => o.Warehouse)
+                                                                          .ToListAsync();
         public async Task<Order?> GetByIdAsync(int id) => await _context.Order.Include(o => o.Customer)
                                                                               .Include(o => o.Warehouse)
                                                                               .Include(o => o.Facture)
@@ -26,26 +28,12 @@ namespace ex10bis.Infrastructure.Repositories
         }
         public async Task UpdateAsync(Order order)
         {
-            var existingOrder = await _context.Order
-                .Include(o => o.OrderDetails)
-                .FirstOrDefaultAsync(o => o.Id == order.Id);
-
-            if (existingOrder is null)
-                return;
-
-            // Met à jour les propriétés scalaires
-            _context.Entry(existingOrder).CurrentValues.SetValues(order);
-            existingOrder.OrderDetails = order.OrderDetails;
-
+            _context.Order.Update(order);
             await _context.SaveChangesAsync();
         }
         public async Task DeleteAsync(Order order)
         {
-            var existingOrder = await _context.Order.FindAsync(order.Id);
-            if (existingOrder is null)
-                return;
-
-            _context.Order.Remove(existingOrder);
+            _context.Order.Remove(order);
             await _context.SaveChangesAsync();
         }
     }
