@@ -17,8 +17,8 @@ using static ex10bis.Core.Dtos.ShippingDtos;
 
 namespace ex10bis.Web.Controllers
 {
-    public class OrderController(IOrderRepository orderRepository, ICreateOrderUseCase createOrderUseCase, IEditOrderUseCase editOrderUseCase, IDeleteOrderUseCase deleteOrderUseCase, IReadOrderUseCase readOrderUseCase, UserManager<IdentityUser> userManager,
-                                 ICustomerRepository customerRepository, IWarehouseRepository warehouseRepository, IArticleRepository articleRepository, IDeliverySlotRepository deliverySlotRepository, IDeliveryRepository deliveryRepository, ICreateDeliveryUseCase createDeliveryUseCase) : BaseController
+    public class OrderController(IOrderRepository orderRepository, ICrudOrderUseCase crudOrderUseCase, ICustomerRepository customerRepository, IWarehouseRepository warehouseRepository, IArticleRepository articleRepository,
+                                 IDeliverySlotRepository deliverySlotRepository, IDeliveryRepository deliveryRepository, ICreateDeliveryUseCase createDeliveryUseCase, UserManager<IdentityUser> userManager) : BaseController
     {
         public async Task<IActionResult> Index()
         {
@@ -29,7 +29,7 @@ namespace ex10bis.Web.Controllers
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null) return NotFound();
-            var response = await readOrderUseCase.Execute(new ReadOrderRequest(id.Value));
+            var response = await crudOrderUseCase.Read(new ReadOrderRequest(id.Value));
             if (!response.Success) return NotFound();
 
             ViewBag.LivreurName = await GetLivreurName(response.Order);
@@ -108,7 +108,7 @@ namespace ex10bis.Web.Controllers
                 ShippingDuration = Random.Shared.Next(0, 120)
             };
 
-            var response = await createOrderUseCase.Execute(newRequest);
+            var response = await crudOrderUseCase.Create(newRequest);
             if (response.Success)
                 return RedirectToAction(nameof(Index));
 
@@ -120,7 +120,7 @@ namespace ex10bis.Web.Controllers
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null) return NotFound();
-            var response = await readOrderUseCase.Execute(new ReadOrderRequest(id.Value));
+            var response = await crudOrderUseCase.Read(new ReadOrderRequest(id.Value));
             if (!response.Success) return NotFound();
 
             var customer = await GetCustomerAsync();
@@ -163,7 +163,7 @@ namespace ex10bis.Web.Controllers
                 ShippingDuration = Random.Shared.Next(0, 120)
             };
 
-            var response = await editOrderUseCase.Execute(request);
+            var response = await crudOrderUseCase.Edit(request);
             if (response.Success)
                 return RedirectToAction(nameof(Index));
             ModelState.AddModelError("", response.Response);
@@ -173,7 +173,7 @@ namespace ex10bis.Web.Controllers
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null) return NotFound();
-            var response = await readOrderUseCase.Execute(new ReadOrderRequest(id.Value));
+            var response = await crudOrderUseCase.Read(new ReadOrderRequest(id.Value));
             if (!response.Success) return NotFound();
 
             if (!userManager.GetRolesAsync(userManager.GetUserAsync(User).Result).Result.Contains("admin"))
@@ -191,7 +191,7 @@ namespace ex10bis.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(DeleteOrderRequest request)
         {
-            var response = await deleteOrderUseCase.Execute(request);
+            var response = await crudOrderUseCase.Delete(request);
             if (response.Success)
                 return RedirectToAction(nameof(Index));
 
@@ -346,7 +346,6 @@ namespace ex10bis.Web.Controllers
             var articles = await articleRepository.ListAsync();
             ViewBag.Articles = new SelectList(articles, "Id", "Name");
             ViewBag.ArticlesPrice = articles.ToDictionary(a => a.Id.ToString(), a => a.Price);
-
         }
     }
 }

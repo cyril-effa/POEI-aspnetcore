@@ -14,7 +14,6 @@ namespace ex10bis.Web.Controllers
     [Authorize(Roles = "livreur,magasinier")]
     public class DeliveryController (IDeliveryRepository deliveryRepository, ICreateDeliveryUseCase createDeliveryUseCase, IOrderRepository orderRepository, ICustomerRepository customerRepository, IFactureRepository factureRepository, UserManager<IdentityUser> userManager) : BaseController
     {
-
         // GET: DeliveryAssignment
         public async Task<IActionResult> Index(string selectedLivreurId = null)
         {

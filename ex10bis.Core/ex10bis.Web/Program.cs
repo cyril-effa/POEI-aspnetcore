@@ -31,31 +31,19 @@ namespace ex10bis.Web
 
             // Add article services
             builder.Services.AddScoped<IArticleRepository, ArticleRepository>()
-                            .AddScoped<ICreateArticleUseCase, CreateArticleUseCase>()
-                            .AddScoped<IEditArticleUseCase, EditArticleUseCase>()
-                            .AddScoped<IDeleteArticleUseCase, DeleteArticleUseCase>()
-                            .AddScoped<IReadArticleUseCase, ReadArticleUseCase>();
+                            .AddScoped<ICrudArticleUseCase, CrudArticleUseCase>();
 
             // Add customer services
             builder.Services.AddScoped<ICustomerRepository, CustomerRepository>()
-                            .AddScoped<ICreateCustomerUseCase, CreateCustomerUseCase>()
-                            .AddScoped<IEditCustomerUseCase, EditCustomerUseCase>()
-                            .AddScoped<IDeleteCustomerUseCase, DeleteCustomerUseCase>()
-                            .AddScoped<IReadCustomerUseCase, ReadCustomerUseCase>();
+                            .AddScoped<ICreateCustomerUseCase, CreateCustomerUseCase>();
 
             // Add order services
             builder.Services.AddScoped<IOrderRepository, OrderRepository>()
-                            .AddScoped<ICreateOrderUseCase, CreateOrderUseCase>()
-                            .AddScoped<IEditOrderUseCase, EditOrderUseCase>()
-                            .AddScoped<IDeleteOrderUseCase, DeleteOrderUseCase>()
-                            .AddScoped<IReadOrderUseCase, ReadOrderUseCase>();
+                            .AddScoped<ICrudOrderUseCase, CrudOrderUseCase>();
 
             // Add warehouse services
             builder.Services.AddScoped<IWarehouseRepository, WarehouseRepository>()
-                            .AddScoped<ICreateWarehouseUseCase, CreateWarehouseUseCase>()
-                            .AddScoped<IEditWarehouseUseCase, EditWarehouseUseCase>()
-                            .AddScoped<IDeleteWarehouseUseCase, DeleteWarehouseUseCase>()
-                            .AddScoped<IReadWarehouseUseCase, ReadWarehouseUseCase>();
+                            .AddScoped<ICrudWarehouseUseCase, CrudWarehouseUseCase>();
 
             // Add delivery services
             builder.Services.AddScoped<IDeliveryRepository, DeliveryRepository>()
