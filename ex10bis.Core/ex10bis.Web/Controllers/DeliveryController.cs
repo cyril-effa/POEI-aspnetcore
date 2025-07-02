@@ -1,9 +1,9 @@
 ﻿using ex10bis.Core.Customer.Interfaces;
+using ex10bis.Core.Delivery.Dtos;
 using ex10bis.Core.Delivery.Interfaces;
 using ex10bis.Core.Entities;
 using ex10bis.Core.Interfaces;
 using ex10bis.Core.Order.Interfaces;
-using ex10bis.Infrastructure.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace ex10bis.Web.Controllers
 {
     [Authorize(Roles = "livreur,magasinier")]
-    public class DeliveryController (IDeliveryRepository deliveryRepository, ICreateDeliveryUseCase createDeliveryUseCase, IOrderRepository orderRepository, ICustomerRepository customerRepository, IFactureRepository factureRepository, UserManager<IdentityUser> userManager) : BaseController
+    public class DeliveryController (IDeliveryRepository deliveryRepository, IServiceDeliveryUseCase serviceDeliveryUseCase, ICreateDeliveryUseCase createDeliveryUseCase, IOrderRepository orderRepository, ICustomerRepository customerRepository, IFactureRepository factureRepository, UserManager<IdentityUser> userManager) : BaseController
     {
         // GET: DeliveryAssignment
         public async Task<IActionResult> Index(string selectedLivreurId = null)
@@ -56,73 +56,59 @@ namespace ex10bis.Web.Controllers
             return View(deliveries);
         }
 
-        public async Task<IActionResult> ConfirmerLivraison(int id)
-        {
-            var delivery = await deliveryRepository.GetByIdAsync(id);
-            if (delivery == null)
-                return NotFound("Delivery not found");
-
-            if (delivery.LivreurId != userManager.GetUserId(User))
-                return Forbid();
-
-            // Modifier le status de la commande 
-
-            var order = await orderRepository.GetByIdAsync(delivery.OrderId);
-            if (order == null)
-                return NotFound("Order not found");
-
-            order.OrderStatus = OrderStatus.Delivered;
-
-            // Génération de la facture PDF
-            var facture = new Facture
-            {
-                NumeroFacture = $"{DateTime.Now:yyyy-MM}-{order.Id}",
-                OrderId = order.Id,
-                Date = DateTime.Now
-            };
-
-            var factureFileName = $"Facture_{facture.NumeroFacture}.pdf";
-            var facturePath = Path.Combine("wwwroot", "factures", factureFileName);
-            facture.FilePath = "/factures/" + factureFileName;
-            FactureService.GenerateFacture(facturePath, facture, order);
-            await factureRepository.AddAsync(facture);
-
-            // Lier la facture à la commande
-            
-            order.Facture = facture;
-            await orderRepository.UpdateAsync(order);
-
-            // Envoi du mail avec pièce jointe
-            var customer = await customerRepository.GetByIdAsync(order.CustomerId);
-            if (customer == null)
-                return NotFound("Customer not found");
-
-            FactureService.SendFactureByEmail(
-                        customer.Email,
-                        "Votre facture de livraison",
-                        $"Bonjour {customer.Name},<br/>Veuillez trouver en pièce jointe la facture de votre commande n°{order.Id}.",
-                        await System.IO.File.ReadAllBytesAsync(facturePath),
-                        facturePath);
-
-            return RedirectToAction(nameof(Index));
-        }
-
-        public async Task<IActionResult> AnnulerLivraison(int id)
+        public async Task<IActionResult> ConfirmDelivery(int id)
         {
             var delivery = await deliveryRepository.GetByIdAsync(id);
             if (delivery == null)
                 return NotFound("DeliveryAssignment not found");
-
             if (delivery.LivreurId != userManager.GetUserId(User))
                 return Forbid();
+            if (delivery.OrderId == 0)
+                return NotFound("Order not found for this delivery");
+            var order = delivery.Order;
+            if (order == null)
+                return NotFound("Order not found for this delivery");
+            var customer = await customerRepository.GetByIdAsync(order.CustomerId);
+            if (customer == null)
+                return NotFound("Customer not found for this order");
 
-            // Modifier le status de la commande 
-            var order = await orderRepository.GetByIdAsync(delivery.OrderId);
-            if (order != null)
+            var response = await serviceDeliveryUseCase.ConfirmDelivery(new ConfirmDeliveryRequest(
+                Order: order,
+                Customer: customer
+            ));
+
+            if (!response.Success)
             {
-                order.OrderStatus = OrderStatus.Cancelled;
-                await orderRepository.UpdateAsync(order);
+                ModelState.AddModelError("", response.Message);
+                return View("Error");
             }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> CancelDelivery(int id)
+        {
+            var delivery = await deliveryRepository.GetByIdAsync(id);
+            if (delivery == null)
+                return NotFound("DeliveryAssignment not found");
+            if (delivery.LivreurId != userManager.GetUserId(User))
+                return Forbid();
+            if (delivery.OrderId == 0)
+                return NotFound("Order not found for this delivery");
+            var order = delivery.Order;
+            if (order == null)
+                return NotFound("Order not found for this delivery");
+
+            var response = await serviceDeliveryUseCase.CancelDelivery(new CancelDeliveryRequest(
+                Order: order
+            ));
+
+            if (!response.Success)
+            {
+                ModelState.AddModelError("", response.Message);
+                return View("Error");
+            }
+
             return RedirectToAction(nameof(Index));
         }
     }

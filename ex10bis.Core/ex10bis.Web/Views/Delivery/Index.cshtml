@@ -47,8 +47,8 @@
             <td>
                 @if (orderStatuses.ContainsKey(item.OrderId) && orderStatuses[item.OrderId] == OrderStatus.Shipped)
                 {
-                    <a asp-action="ConfirmerLivraison" asp-route-id="@item.Id">Confirmer la livraison</a>
-                    <a asp-action="AnnulerLivraison" asp-route-id="@item.Id">Annuler la livraison</a>
+                    <a asp-action="ConfirmDelivery" asp-route-id="@item.Id">Confirmer la livraison</a>
+                    <a asp-action="CancelDelivery" asp-route-id="@item.Id">Annuler la livraison</a>
                 }
             </td>
         </tr>

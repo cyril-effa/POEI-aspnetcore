@@ -2,7 +2,7 @@
 using ex10bis.Core.Customer.Interfaces;
 using ex10bis.Core.Delivery.Dtos;
 using ex10bis.Core.Delivery.Interfaces;
-using ex10bis.Core.Delivery.UseCases;
+using ex10bis.Core.Dtos;
 using ex10bis.Core.Entities;
 using ex10bis.Core.Interfaces;
 using ex10bis.Core.Order.Dtos;
@@ -12,12 +12,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using static ex10bis.Core.Dtos.ShippingDtos;
 
 namespace ex10bis.Web.Controllers
 {
-    public class OrderController(IOrderRepository orderRepository, ICrudOrderUseCase crudOrderUseCase, ICustomerRepository customerRepository, IWarehouseRepository warehouseRepository, IArticleRepository articleRepository,
+    public class OrderController(IOrderRepository orderRepository, ICrudOrderUseCase crudOrderUseCase, IServiceOrderUseCase serviceOrderUseCase, ICustomerRepository customerRepository, IWarehouseRepository warehouseRepository, IArticleRepository articleRepository,
                                  IDeliverySlotRepository deliverySlotRepository, IDeliveryRepository deliveryRepository, ICreateDeliveryUseCase createDeliveryUseCase, UserManager<IdentityUser> userManager) : BaseController
     {
         public async Task<IActionResult> Index()
@@ -205,7 +203,6 @@ namespace ex10bis.Web.Controllers
         public async Task<IActionResult> Process(int id)
         {
             var order = await orderRepository.GetByIdAsync(id);
-
             if (order == null)
                 return NotFound();
 
@@ -217,9 +214,18 @@ namespace ex10bis.Web.Controllers
                 return RedirectToAction(nameof(Details), new { id = order.Id });
             }
 
-            order.ShippingCost = shippingResponse.Cost;
-            order.OrderStatus = OrderStatus.Processing;
-            orderRepository.UpdateAsync(order);
+            var processResponse = await serviceOrderUseCase.Process(new ProcessOrderRequest
+            (
+                Order: order,
+                ShippingResponse: shippingResponse
+            ));
+
+            if (!processResponse.Success)
+            {
+                ModelState.AddModelError("", processResponse.Message);
+                TempData["Error"] = "Erreur lors du traitement de la commande.";
+            }
+
             return RedirectToAction(nameof(Details), new { id = order.Id });
         }
 
@@ -243,7 +249,7 @@ namespace ex10bis.Web.Controllers
 
         [Authorize(Roles = "magasinier")]
         [HttpPost]
-        public async Task<IActionResult> PlanLivraison(int id, int slotId)
+        public async Task<IActionResult> PlanDelivery(int id, int slotId)
         {
             var order = await orderRepository.GetByIdAsync(id);
             if (order == null)
@@ -326,6 +332,10 @@ namespace ex10bis.Web.Controllers
                     s.IsAvailable = false; // Marquer le créneau comme indisponible si tous les livreurs sont occupés
                 }
             }
+
+
+            //var response = serviceOrderUseCase.PlanDelivery(new PlanDeliveryRequest(id, slotId));
+
 
             // Mettre à jour le statut de la commande
             order.OrderStatus = OrderStatus.Shipped;

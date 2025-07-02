@@ -9,13 +9,13 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "ex10bis.Core.Dtos.ShippingDtos\u002BShippingRequest",
+        "Type": "ex10bis.Core.Dtos.ShippingRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ex10bis.Core.Dtos.ShippingDtos\u002BShippingResponse",
+        "Type": "ex10bis.Core.Dtos.ShippingResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",

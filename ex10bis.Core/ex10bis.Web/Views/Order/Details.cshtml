@@ -94,7 +94,7 @@
         var maxSlots = slotsByDay.Values.Any() ? slotsByDay.Values.Max(l => l.Count) : 0;
 
         <h5>Choisir un créneau de livraison :</h5>
-        <form asp-action="PlanLivraison" asp-route-id="@Model.Id" method="post">
+        <form asp-action="PlanDelivery" asp-route-id="@Model.Id" method="post">
             <table class="table table-bordered">
                 <thead>
                     <tr>

@@ -1,10 +1,11 @@
 ﻿using ex10bis.Core.Entities;
+using ex10bis.Core.Interfaces;
 
 namespace ex10bis.Infrastructure.Services
 {
-    public class FactureService
+    public class FactureService : IFactureService
     {
-        public static void GenerateFacture(string facturePath, Facture facture, Order order)
+        public void GenerateFacture(string facturePath, Facture facture, Order order)
         {
             Directory.CreateDirectory(Path.GetDirectoryName(facturePath));
 
@@ -27,7 +28,7 @@ namespace ex10bis.Infrastructure.Services
             PDFService.GeneratePDF(facturePath, content);
         }
 
-        public static void SendFactureByEmail(string to, string subject, string body, byte[] facture, string facturePath)
+        public void SendFactureByEmail(string to, string subject, string body, byte[] facture, string facturePath)
         {
             if (File.Exists(facturePath))
             {

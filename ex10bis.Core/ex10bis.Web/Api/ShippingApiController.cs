@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using static ex10bis.Core.Dtos.ShippingDtos;
+﻿using ex10bis.Core.Dtos;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ex10bis.Web.Api
 {

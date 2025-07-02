@@ -12,6 +12,7 @@ using ex10bis.Core.Warehouse.Interfaces;
 using ex10bis.Core.Warehouse.UseCases;
 using ex10bis.Infrastructure.Data;
 using ex10bis.Infrastructure.Repositories;
+using ex10bis.Infrastructure.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -39,7 +40,8 @@ namespace ex10bis.Web
 
             // Add order services
             builder.Services.AddScoped<IOrderRepository, OrderRepository>()
-                            .AddScoped<ICrudOrderUseCase, CrudOrderUseCase>();
+                            .AddScoped<ICrudOrderUseCase, CrudOrderUseCase>()
+                            .AddScoped<IServiceOrderUseCase, ServiceOrderUseCase>();
 
             // Add warehouse services
             builder.Services.AddScoped<IWarehouseRepository, WarehouseRepository>()
@@ -49,7 +51,10 @@ namespace ex10bis.Web
             builder.Services.AddScoped<IDeliveryRepository, DeliveryRepository>()
                             .AddScoped<ICreateDeliveryUseCase, CreateDeliveryUseCase>();
             builder.Services.AddScoped<IDeliverySlotRepository, DeliverySlotRepository>();
-            builder.Services.AddScoped<IFactureRepository, FactureRepository>();
+
+            // Add facture services
+            builder.Services.AddScoped<IFactureRepository, FactureRepository>()
+                            .AddScoped<IFactureService, FactureService>();
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddRoles<IdentityRole>()
