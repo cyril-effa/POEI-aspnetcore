@@ -24,19 +24,32 @@ namespace ex10bis.Infrastructure.Data
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Order>()
+                .HasMany(o => o.OrderDetails)
+                .WithOne(od => od.Order)
+                .HasForeignKey(od => od.OrderId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Order>()
                 .HasOne(o => o.Delivery)
-                .WithOne(da => da.Order)
-                .HasForeignKey<Delivery>(da => da.OrderId);
+                .WithOne(d => d.Order)
+                .HasForeignKey<Delivery>(d => d.OrderId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Order>()
                 .HasOne(o => o.Facture)
                 .WithOne(f => f.Order)
-                .HasForeignKey<Facture>(f => f.OrderId);
+                .HasForeignKey<Facture>(f => f.OrderId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Order>()
                 .HasOne(o => o.Warehouse)
                 .WithMany(w => w.Orders)
-                .HasForeignKey(o => o.WarehouseId);
+                .HasForeignKey(o => o.WarehouseId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Delivery>()
+                .HasMany(d => d.DeliverySlots)
+                .WithMany(ds => ds.Assignments);
         }
     }
 }

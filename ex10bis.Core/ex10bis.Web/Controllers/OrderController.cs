@@ -16,7 +16,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace ex10bis.Web.Controllers
 {
     public class OrderController(IOrderRepository orderRepository, ICrudOrderUseCase crudOrderUseCase, IServiceOrderUseCase serviceOrderUseCase, ICustomerRepository customerRepository, IWarehouseRepository warehouseRepository, IArticleRepository articleRepository,
-                                 IDeliverySlotRepository deliverySlotRepository, IDeliveryRepository deliveryRepository, ICreateDeliveryUseCase createDeliveryUseCase, UserManager<IdentityUser> userManager) : BaseController
+                                 IDeliverySlotRepository deliverySlotRepository, IDeliveryRepository deliveryRepository, IDeliveryUseCase deliveryUseCase, UserManager<IdentityUser> userManager) : BaseController
     {
         public async Task<IActionResult> Index()
         {
@@ -308,7 +308,7 @@ namespace ex10bis.Web.Controllers
             }
 
             // Créer l'affectation
-            var response = await createDeliveryUseCase.Execute(new CreateDeliveryRequest
+            var response = await deliveryUseCase.Create(new CreateDeliveryRequest
             (
                 OrderId: order.Id,
                 Order: order,
@@ -332,10 +332,6 @@ namespace ex10bis.Web.Controllers
                     s.IsAvailable = false; // Marquer le créneau comme indisponible si tous les livreurs sont occupés
                 }
             }
-
-
-            //var response = serviceOrderUseCase.PlanDelivery(new PlanDeliveryRequest(id, slotId));
-
 
             // Mettre à jour le statut de la commande
             order.OrderStatus = OrderStatus.Shipped;

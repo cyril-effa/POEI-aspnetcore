@@ -1,5 +1,4 @@
-﻿using ex10bis.Core.Dtos;
-using ex10bis.Core.Entities;
+﻿using ex10bis.Core.Entities;
 using ex10bis.Core.Order.Dtos;
 using ex10bis.Core.Order.Interfaces;
 
@@ -23,11 +22,6 @@ namespace ex10bis.Core.Order.UseCases
             orderRepository.UpdateAsync(request.Order);
 
             return Task.FromResult(new ProcessOrderResponse(true, "Order processed successfully."));
-        }
-
-        public Task<PlanDeliveryResponse> PlanDelivery(PlanDeliveryRequest request)
-        {
-
         }
     }
 }

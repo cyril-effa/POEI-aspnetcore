@@ -1,7 +1,6 @@
 ﻿using ex10bis.Core.Customer.Interfaces;
 using ex10bis.Core.Delivery.Dtos;
 using ex10bis.Core.Delivery.Interfaces;
-using ex10bis.Core.Entities;
 using ex10bis.Core.Interfaces;
 using ex10bis.Core.Order.Interfaces;
 using Microsoft.AspNetCore.Authorization;
@@ -12,7 +11,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace ex10bis.Web.Controllers
 {
     [Authorize(Roles = "livreur,magasinier")]
-    public class DeliveryController (IDeliveryRepository deliveryRepository, IServiceDeliveryUseCase serviceDeliveryUseCase, ICreateDeliveryUseCase createDeliveryUseCase, IOrderRepository orderRepository, ICustomerRepository customerRepository, IFactureRepository factureRepository, UserManager<IdentityUser> userManager) : BaseController
+    public class DeliveryController (IDeliveryRepository deliveryRepository, IDeliveryUseCase serviceDeliveryUseCase, IDeliveryUseCase deliveryUseCase, IOrderRepository orderRepository, ICustomerRepository customerRepository, IFactureRepository factureRepository, UserManager<IdentityUser> userManager) : BaseController
     {
         // GET: DeliveryAssignment
         public async Task<IActionResult> Index(string selectedLivreurId = null)

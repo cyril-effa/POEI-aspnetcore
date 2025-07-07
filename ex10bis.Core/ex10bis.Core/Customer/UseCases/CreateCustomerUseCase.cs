@@ -20,8 +20,16 @@ namespace ex10bis.Core.Customer.UseCases
                 City = request.City,
                 Orders = request.Orders ?? new List<Entities.Order>()
             };
-            await customerRepository.AddAsync(customer);
-            return new CreateCustomerResponse(true, "Customer created successfully", customer);
+
+            try
+            {
+                await customerRepository.AddAsync(customer);
+                return new CreateCustomerResponse(true, "Customer created successfully", customer);
+            }
+            catch (Exception ex)
+            {
+                return new CreateCustomerResponse(false, $"Error creating customer: {ex.Message}", null);
+            }
         }
     }
 }

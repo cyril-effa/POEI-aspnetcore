@@ -17,10 +17,19 @@ namespace ex10bis.Core.Warehouse.UseCases
             {
                 Name = request.Name,
                 Address = request.Address,
-                PostalCode = request.PostalCode
+                PostalCode = request.PostalCode,
+                Orders = request.Orders ?? new List<Entities.Order>()
             };
-            await warehouseRepository.AddAsync(warehouse);
-            return new CreateWarehouseResponse(true, "Warehouse created successfully", warehouse);
+
+            try { 
+                await warehouseRepository.AddAsync(warehouse);
+                return new CreateWarehouseResponse(true, "Warehouse created successfully", warehouse);
+            }
+            catch (Exception ex)
+            {
+                return new CreateWarehouseResponse(false, $"Error creating warehouse: {ex.Message}", null);
+            }
+
         }
 
         public Task<DeleteWarehouseResponse> Delete(DeleteWarehouseRequest request)
@@ -29,13 +38,22 @@ namespace ex10bis.Core.Warehouse.UseCases
             {
                 return Task.FromResult(new DeleteWarehouseResponse(false, "Invalid request"));
             }
+
             var warehouse = warehouseRepository.GetByIdAsync(request.Id).Result;
             if (warehouse == null)
             {
                 return Task.FromResult(new DeleteWarehouseResponse(false, "Warehouse not found"));
             }
-            warehouseRepository.DeleteAsync(warehouse);
-            return Task.FromResult(new DeleteWarehouseResponse(true, "Warehouse deleted successfully"));
+
+            try
+            {
+                warehouseRepository.DeleteAsync(warehouse);
+                return Task.FromResult(new DeleteWarehouseResponse(true, "Warehouse deleted successfully"));
+            }
+            catch (Exception ex)
+            {
+                return Task.FromResult(new DeleteWarehouseResponse(false, $"Error deleting warehouse: {ex.Message}"));
+            }
         }
 
         public Task<EditWarehouseResponse> Edit(EditWarehouseRequest request)
@@ -44,17 +62,34 @@ namespace ex10bis.Core.Warehouse.UseCases
             {
                 return Task.FromResult(new EditWarehouseResponse(false, "Invalid request", null));
             }
+
             var warehouse = warehouseRepository.GetByIdAsync(request.Id).Result;
             if (warehouse == null)
             {
                 return Task.FromResult(new EditWarehouseResponse(false, "Warehouse not found", null));
             }
+
             warehouse.Name = request.Name;
             warehouse.Address = request.Address;
             warehouse.PostalCode = request.PostalCode;
             warehouse.Orders = request.Orders ?? new List<Entities.Order>();
-            warehouseRepository.UpdateAsync(warehouse);
-            return Task.FromResult(new EditWarehouseResponse(true, $"Warehouse updated successfully", warehouse));
+
+            if (string.IsNullOrWhiteSpace(warehouse.Name) ||
+                string.IsNullOrWhiteSpace(warehouse.Address) ||
+                warehouse.PostalCode <= 0)
+            {
+                return Task.FromResult(new EditWarehouseResponse(false, "Invalid input data", null));
+            }
+
+            try
+            { 
+                warehouseRepository.UpdateAsync(warehouse);
+                return Task.FromResult(new EditWarehouseResponse(true, "Warehouse updated successfully", warehouse));
+            }
+            catch (Exception ex)
+            {
+                return Task.FromResult(new EditWarehouseResponse(false, $"Error updating warehouse: {ex.Message}", null));
+            }
         }
 
         public Task<ReadWarehouseResponse> Read(ReadWarehouseRequest request)
@@ -63,6 +98,7 @@ namespace ex10bis.Core.Warehouse.UseCases
             {
                 return Task.FromResult(new ReadWarehouseResponse(false, "Invalid request", null));
             }
+
             var warehouse = warehouseRepository.GetByIdAsync(request.Id).Result;
             if (warehouse == null)
             {

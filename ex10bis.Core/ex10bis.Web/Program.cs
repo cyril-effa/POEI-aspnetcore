@@ -49,7 +49,7 @@ namespace ex10bis.Web
 
             // Add delivery services
             builder.Services.AddScoped<IDeliveryRepository, DeliveryRepository>()
-                            .AddScoped<ICreateDeliveryUseCase, CreateDeliveryUseCase>();
+                            .AddScoped<IDeliveryUseCase, DeliveryUseCase>();
             builder.Services.AddScoped<IDeliverySlotRepository, DeliverySlotRepository>();
 
             // Add facture services
