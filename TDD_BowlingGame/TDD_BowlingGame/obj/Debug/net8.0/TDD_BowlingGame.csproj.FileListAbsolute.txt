@@ -1,0 +1,12 @@
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_BowlingGame\TDD_BowlingGame\bin\Debug\net8.0\TDD_BowlingGame.deps.json
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_BowlingGame\TDD_BowlingGame\bin\Debug\net8.0\TDD_BowlingGame.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_BowlingGame\TDD_BowlingGame\bin\Debug\net8.0\TDD_BowlingGame.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_BowlingGame\TDD_BowlingGame\obj\Debug\net8.0\TDD_BowlingGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_BowlingGame\TDD_BowlingGame\obj\Debug\net8.0\TDD_BowlingGame.AssemblyInfoInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_BowlingGame\TDD_BowlingGame\obj\Debug\net8.0\TDD_BowlingGame.AssemblyInfo.cs
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_BowlingGame\TDD_BowlingGame\obj\Debug\net8.0\TDD_BowlingGame.csproj.CoreCompileInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_BowlingGame\TDD_BowlingGame\obj\Debug\net8.0\TDD_BowlingGame.sourcelink.json
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_BowlingGame\TDD_BowlingGame\obj\Debug\net8.0\TDD_BowlingGame.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_BowlingGame\TDD_BowlingGame\obj\Debug\net8.0\refint\TDD_BowlingGame.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_BowlingGame\TDD_BowlingGame\obj\Debug\net8.0\TDD_BowlingGame.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_BowlingGame\TDD_BowlingGame\obj\Debug\net8.0\ref\TDD_BowlingGame.dll

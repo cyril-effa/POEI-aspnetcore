@@ -15,7 +15,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ex10bis.Web.Controllers
 {
-    public class OrderController(IOrderRepository orderRepository, ICrudOrderUseCase crudOrderUseCase, IServiceOrderUseCase serviceOrderUseCase, ICustomerRepository customerRepository, IWarehouseRepository warehouseRepository, IArticleRepository articleRepository,
+    public class OrderController(IOrderRepository orderRepository, IOrderUseCase orderUseCase, ICustomerRepository customerRepository, IWarehouseRepository warehouseRepository, IArticleRepository articleRepository,
                                  IDeliverySlotRepository deliverySlotRepository, IDeliveryRepository deliveryRepository, IDeliveryUseCase deliveryUseCase, UserManager<IdentityUser> userManager) : BaseController
     {
         public async Task<IActionResult> Index()
@@ -27,7 +27,7 @@ namespace ex10bis.Web.Controllers
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null) return NotFound();
-            var response = await crudOrderUseCase.Read(new ReadOrderRequest(id.Value));
+            var response = await orderUseCase.Read(new ReadOrderRequest(id.Value));
             if (!response.Success) return NotFound();
 
             ViewBag.LivreurName = await GetLivreurName(response.Order);
@@ -106,7 +106,7 @@ namespace ex10bis.Web.Controllers
                 ShippingDuration = Random.Shared.Next(0, 120)
             };
 
-            var response = await crudOrderUseCase.Create(newRequest);
+            var response = await orderUseCase.Create(newRequest);
             if (response.Success)
                 return RedirectToAction(nameof(Index));
 
@@ -118,7 +118,7 @@ namespace ex10bis.Web.Controllers
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null) return NotFound();
-            var response = await crudOrderUseCase.Read(new ReadOrderRequest(id.Value));
+            var response = await orderUseCase.Read(new ReadOrderRequest(id.Value));
             if (!response.Success) return NotFound();
 
             var customer = await GetCustomerAsync();
@@ -161,7 +161,7 @@ namespace ex10bis.Web.Controllers
                 ShippingDuration = Random.Shared.Next(0, 120)
             };
 
-            var response = await crudOrderUseCase.Edit(request);
+            var response = await orderUseCase.Edit(request);
             if (response.Success)
                 return RedirectToAction(nameof(Index));
             ModelState.AddModelError("", response.Response);
@@ -171,7 +171,7 @@ namespace ex10bis.Web.Controllers
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null) return NotFound();
-            var response = await crudOrderUseCase.Read(new ReadOrderRequest(id.Value));
+            var response = await orderUseCase.Read(new ReadOrderRequest(id.Value));
             if (!response.Success) return NotFound();
 
             if (!userManager.GetRolesAsync(userManager.GetUserAsync(User).Result).Result.Contains("admin"))
@@ -189,7 +189,7 @@ namespace ex10bis.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(DeleteOrderRequest request)
         {
-            var response = await crudOrderUseCase.Delete(request);
+            var response = await orderUseCase.Delete(request);
             if (response.Success)
                 return RedirectToAction(nameof(Index));
 
@@ -214,7 +214,7 @@ namespace ex10bis.Web.Controllers
                 return RedirectToAction(nameof(Details), new { id = order.Id });
             }
 
-            var processResponse = await serviceOrderUseCase.Process(new ProcessOrderRequest
+            var processResponse = await orderUseCase.Process(new ProcessOrderRequest
             (
                 Order: order,
                 ShippingResponse: shippingResponse

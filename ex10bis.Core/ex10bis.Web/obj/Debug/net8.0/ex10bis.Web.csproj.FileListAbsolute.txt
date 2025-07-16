@@ -661,3 +661,4 @@ C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\ex10bis.Core\ex10bis.Web\obj\
 C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\ex10bis.Core\ex10bis.Web\obj\Debug\net8.0\ex10bis.Web.pdb
 C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\ex10bis.Core\ex10bis.Web\obj\Debug\net8.0\ex10bis.Web.genruntimeconfig.cache
 C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\ex10bis.Core\ex10bis.Web\obj\Debug\net8.0\ref\ex10bis.Web.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\ex10bis.Core\ex10bis.Web\bin\Debug\net8.0\Ardalis.GuardClauses.dll

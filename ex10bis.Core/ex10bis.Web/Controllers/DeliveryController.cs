@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 namespace ex10bis.Web.Controllers
 {
     [Authorize(Roles = "livreur,magasinier")]
-    public class DeliveryController (IDeliveryRepository deliveryRepository, IDeliveryUseCase serviceDeliveryUseCase, IDeliveryUseCase deliveryUseCase, IOrderRepository orderRepository, ICustomerRepository customerRepository, IFactureRepository factureRepository, UserManager<IdentityUser> userManager) : BaseController
+    public class DeliveryController (IDeliveryRepository deliveryRepository, IDeliveryUseCase deliveryUseCase, IOrderRepository orderRepository, ICustomerRepository customerRepository, IFactureRepository factureRepository, UserManager<IdentityUser> userManager) : BaseController
     {
         // GET: DeliveryAssignment
         public async Task<IActionResult> Index(string selectedLivreurId = null)
@@ -71,7 +71,7 @@ namespace ex10bis.Web.Controllers
             if (customer == null)
                 return NotFound("Customer not found for this order");
 
-            var response = await serviceDeliveryUseCase.ConfirmDelivery(new ConfirmDeliveryRequest(
+            var response = await deliveryUseCase.ConfirmDelivery(new ConfirmDeliveryRequest(
                 Order: order,
                 Customer: customer
             ));
@@ -98,7 +98,7 @@ namespace ex10bis.Web.Controllers
             if (order == null)
                 return NotFound("Order not found for this delivery");
 
-            var response = await serviceDeliveryUseCase.CancelDelivery(new CancelDeliveryRequest(
+            var response = await deliveryUseCase.CancelDelivery(new CancelDeliveryRequest(
                 Order: order
             ));
 

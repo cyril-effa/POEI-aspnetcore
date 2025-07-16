@@ -479,3 +479,4 @@ C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\ex10bis.Core\IntegrationTests
 C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\ex10bis.Core\IntegrationTests\obj\Debug\net8.0\IntegrationTests.pdb
 C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\ex10bis.Core\IntegrationTests\obj\Debug\net8.0\IntegrationTests.genruntimeconfig.cache
 C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\ex10bis.Core\IntegrationTests\obj\Debug\net8.0\ref\IntegrationTests.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\ex10bis.Core\IntegrationTests\bin\Debug\net8.0\Ardalis.GuardClauses.dll

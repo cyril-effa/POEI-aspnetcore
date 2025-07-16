@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\TDD_RomanNum\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC0DE40A-D61F-450C-8684-CF341EDD269D}|TDD_RomanNum_TESTS\\TDD_RomanNum_TESTS.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\tdd_romannum\\tdd_romannum_tests\\romannumtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC0DE40A-D61F-450C-8684-CF341EDD269D}|TDD_RomanNum_TESTS\\TDD_RomanNum_TESTS.csproj|solutionrelative:tdd_romannum_tests\\romannumtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AA44741-4483-4003-AEF5-8D4A96DA8BB3}|TDD_RomanNum\\TDD_RomanNum.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\tdd_romannum\\tdd_romannum\\romannum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AA44741-4483-4003-AEF5-8D4A96DA8BB3}|TDD_RomanNum\\TDD_RomanNum.csproj|solutionrelative:tdd_romannum\\romannum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RomanNumTests.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\TDD_RomanNum\\TDD_RomanNum_TESTS\\RomanNumTests.cs",
+              "RelativeDocumentMoniker": "TDD_RomanNum_TESTS\\RomanNumTests.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\TDD_RomanNum\\TDD_RomanNum_TESTS\\RomanNumTests.cs",
+              "RelativeToolTip": "TDD_RomanNum_TESTS\\RomanNumTests.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T13:51:07.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RomanNum.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\TDD_RomanNum\\TDD_RomanNum\\RomanNum.cs",
+              "RelativeDocumentMoniker": "TDD_RomanNum\\RomanNum.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\TDD_RomanNum\\TDD_RomanNum\\RomanNum.cs",
+              "RelativeToolTip": "TDD_RomanNum\\RomanNum.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAIwGQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T13:50:30.934Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

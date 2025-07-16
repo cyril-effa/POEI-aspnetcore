@@ -1,0 +1,12 @@
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_RomanNum\TDD_RomanNum\bin\Debug\net8.0\TDD_RomanNum.deps.json
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_RomanNum\TDD_RomanNum\bin\Debug\net8.0\TDD_RomanNum.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_RomanNum\TDD_RomanNum\bin\Debug\net8.0\TDD_RomanNum.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_RomanNum\TDD_RomanNum\obj\Debug\net8.0\TDD_RomanNum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_RomanNum\TDD_RomanNum\obj\Debug\net8.0\TDD_RomanNum.AssemblyInfoInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_RomanNum\TDD_RomanNum\obj\Debug\net8.0\TDD_RomanNum.AssemblyInfo.cs
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_RomanNum\TDD_RomanNum\obj\Debug\net8.0\TDD_RomanNum.csproj.CoreCompileInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_RomanNum\TDD_RomanNum\obj\Debug\net8.0\TDD_RomanNum.sourcelink.json
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_RomanNum\TDD_RomanNum\obj\Debug\net8.0\TDD_RomanNum.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_RomanNum\TDD_RomanNum\obj\Debug\net8.0\refint\TDD_RomanNum.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_RomanNum\TDD_RomanNum\obj\Debug\net8.0\TDD_RomanNum.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\TDD_RomanNum\TDD_RomanNum\obj\Debug\net8.0\ref\TDD_RomanNum.dll

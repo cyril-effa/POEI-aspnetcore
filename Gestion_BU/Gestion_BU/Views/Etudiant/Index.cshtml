@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Gestion_BU.ViewModels.EtudiantViewModel>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1>Liste des etudiants</h1>
+
+<p>
+    <a asp-action="Add">Ajouter</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UniversiteName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NbTelechargements)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UniversiteName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NbTelechargements)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

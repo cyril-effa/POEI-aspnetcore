@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\gestion_bu\\gestion_bu\\views\\etudiant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|solutionrelative:gestion_bu\\views\\etudiant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\gestion_bu\\gestion_bu\\controllers\\etudiantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|solutionrelative:gestion_bu\\controllers\\etudiantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\gestion_bu\\gestion_bu\\viewmodels\\etudiantviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|solutionrelative:gestion_bu\\viewmodels\\etudiantviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\gestion_bu\\gestion_bu\\entities\\etudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|solutionrelative:gestion_bu\\entities\\etudiant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\gestion_bu\\gestion_bu\\repositories\\universiterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|solutionrelative:gestion_bu\\repositories\\universiterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\gestion_bu\\gestion_bu\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|solutionrelative:gestion_bu\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\gestion_bu\\gestion_bu\\services\\registreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|solutionrelative:gestion_bu\\services\\registreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\gestion_bu\\gestion_bu\\repositories\\etudiantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|solutionrelative:gestion_bu\\repositories\\etudiantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\gestion_bu\\gestion_bu\\interfaces\\iregistreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|solutionrelative:gestion_bu\\interfaces\\iregistreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\gestion_bu\\gestion_bu\\interfaces\\ietudiantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|solutionrelative:gestion_bu\\interfaces\\ietudiantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\gestion_bu\\gestion_bu\\views\\etudiant\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|solutionrelative:gestion_bu\\views\\etudiant\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\gestion_bu\\gestion_bu\\controllers\\universitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|solutionrelative:gestion_bu\\controllers\\universitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\gestion_bu\\gestion_bu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|solutionrelative:gestion_bu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\gestion_bu\\gestion_bu\\interfaces\\iuniversiterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0817260-F59D-4787-BF1D-A18ADA1A46DF}|Gestion_BU\\Gestion_BU.csproj|solutionrelative:gestion_bu\\interfaces\\iuniversiterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Gestion_BU\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Gestion_BU\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T08:37:39.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Views\\Etudiant\\Index.cshtml",
+              "RelativeDocumentMoniker": "Gestion_BU\\Views\\Etudiant\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Views\\Etudiant\\Index.cshtml",
+              "RelativeToolTip": "Gestion_BU\\Views\\Etudiant\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-11T08:33:35.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EtudiantViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\ViewModels\\EtudiantViewModel.cs",
+              "RelativeDocumentMoniker": "Gestion_BU\\ViewModels\\EtudiantViewModel.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\ViewModels\\EtudiantViewModel.cs",
+              "RelativeToolTip": "Gestion_BU\\ViewModels\\EtudiantViewModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwBkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T08:29:43.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Etudiant.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Entities\\Etudiant.cs",
+              "RelativeDocumentMoniker": "Gestion_BU\\Entities\\Etudiant.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Entities\\Etudiant.cs",
+              "RelativeToolTip": "Gestion_BU\\Entities\\Etudiant.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:18:39.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEtudiantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Interfaces\\IEtudiantRepository.cs",
+              "RelativeDocumentMoniker": "Gestion_BU\\Interfaces\\IEtudiantRepository.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Interfaces\\IEtudiantRepository.cs",
+              "RelativeToolTip": "Gestion_BU\\Interfaces\\IEtudiantRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:13:09.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EtudiantController.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Controllers\\EtudiantController.cs",
+              "RelativeDocumentMoniker": "Gestion_BU\\Controllers\\EtudiantController.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Controllers\\EtudiantController.cs",
+              "RelativeToolTip": "Gestion_BU\\Controllers\\EtudiantController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:09:36.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UniversiteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Repositories\\UniversiteRepository.cs",
+              "RelativeDocumentMoniker": "Gestion_BU\\Repositories\\UniversiteRepository.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Repositories\\UniversiteRepository.cs",
+              "RelativeToolTip": "Gestion_BU\\Repositories\\UniversiteRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:13:23.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EtudiantRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Repositories\\EtudiantRepository.cs",
+              "RelativeDocumentMoniker": "Gestion_BU\\Repositories\\EtudiantRepository.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Repositories\\EtudiantRepository.cs",
+              "RelativeToolTip": "Gestion_BU\\Repositories\\EtudiantRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwBYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:14:15.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistreService.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Services\\RegistreService.cs",
+              "RelativeDocumentMoniker": "Gestion_BU\\Services\\RegistreService.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Services\\RegistreService.cs",
+              "RelativeToolTip": "Gestion_BU\\Services\\RegistreService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T06:43:57.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Views\\Etudiant\\Add.cshtml",
+              "RelativeDocumentMoniker": "Gestion_BU\\Views\\Etudiant\\Add.cshtml",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Views\\Etudiant\\Add.cshtml",
+              "RelativeToolTip": "Gestion_BU\\Views\\Etudiant\\Add.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-11T08:29:08.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRegistreService.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Interfaces\\IRegistreService.cs",
+              "RelativeDocumentMoniker": "Gestion_BU\\Interfaces\\IRegistreService.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Interfaces\\IRegistreService.cs",
+              "RelativeToolTip": "Gestion_BU\\Interfaces\\IRegistreService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:13:46.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUniversiteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Interfaces\\IUniversiteRepository.cs",
+              "RelativeDocumentMoniker": "Gestion_BU\\Interfaces\\IUniversiteRepository.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Interfaces\\IUniversiteRepository.cs",
+              "RelativeToolTip": "Gestion_BU\\Interfaces\\IUniversiteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:13:22.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UniversiteController.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Controllers\\UniversiteController.cs",
+              "RelativeDocumentMoniker": "Gestion_BU\\Controllers\\UniversiteController.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Controllers\\UniversiteController.cs",
+              "RelativeToolTip": "Gestion_BU\\Controllers\\UniversiteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:16:57.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Program.cs",
+              "RelativeDocumentMoniker": "Gestion_BU\\Program.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Gestion_BU\\Gestion_BU\\Program.cs",
+              "RelativeToolTip": "Gestion_BU\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T14:30:11.884Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

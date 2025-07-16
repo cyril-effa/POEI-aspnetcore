@@ -1,0 +1,81 @@
+﻿@model IEnumerable<Gestion_BU.ViewModels.EtudiantViewModel>
+
+@{
+    ViewData["Title"] = "List";
+}
+<style>
+
+</style>
+
+<h1>GestionBU SAS - Gestion des bibliothèques universitaire</h1>
+<center>
+    <img src="~/img/schema.png" />
+</center>
+<p>
+    GestionBU est une bibliothèque en ligne qui vend ses services aux universités.
+    Les universités l'utilisent en mode SaaS (en tant que plateforme) pour permettre à leurs étudiants de lire/télécharger des livres électroniques.
+</p>
+<br />
+<p>
+    Les utilisateurs de cette application (les étudiants) peuvent se connecter avec les informations d'identification fournies par leur université et télécharger des livres électroniques.
+    Il y a une limite mensuelle d'e-books qu'un étudiant peut télécharger.
+    Cette allocation mensuelle est basée sur le forfait acheté par l'université à laquelle appartient l'étudiant.
+</p>
+<p>
+    Pour qu'un étudiant puisse avoir accès aux livres grâce au forfait offert par son université, l'édutiant doit être inscrit dans le registre de GestionBU. Le registre relie un étudiant à une université.
+</p>
+ 
+<p>
+    Si le forfait souscrit par l'université de l'étudiant est <br />
+    <strong>Standard</strong>: le nombre de téléchargement autorisé est de  <strong>10/mois</strong>. <br />
+    <strong>Premuim</strong>:  le nombre de téléchargement autorisé est de  <strong>20/mois</strong>.<br /><br />
+</p>
+<button type="button" class="collapsible">Aide Memoire</button>
+<div class="content">
+    <ul>
+        <li>S : Single Responsibility Principle (SRP) <br /> Une classe ne doit avoir qu'une seule et unique responsabilité.</li>
+        <li>O : Open/Closed Principle <br />Les entités doivent être ouvertes à l'extension et fermées à la modification.</li>
+        <li>L : Liskov’s Substitution Principle (LSP) <br /> Les objets dans un programme doivent être remplaçables par des instances de leur sous-type sans pour autant altérer le bon fonctionnement du programme.</li>
+        <li>I : Interface Segregation Principle (ISP) <br /> Aucun client ne devrait être forcé d'implémenter des méthodes / fonctions qu'il n'utilise pas.</li>
+        <li><strong>D : Dependency Inversion Principle (DIP) </strong><br /> Une classe doit dépendre de son abstraction, pas de son implémentation.</li>
+    </ul>
+</div>
+
+<h2 style="margin-top:10px">Exercices</h2>
+
+<strong>Etape 1</strong>
+<p>1. En utilisant vos connaissances et les principes S.O.L.I.D, refactorisez l'application afin de permettre une meilleure séparation des couches,et une meilleure testabilité/lisibilité
+<br/> L'esentiel de vos changements s'effectueront au sein de la classe RegistreService.</p>
+
+
+<strong>Etape 2</strong>
+<p>2. Imaginons maintenant que chaque forfait donne  <strong>la possibilité de souscrire un bonus </strong> qui permet aux etudiants d'augmenter le nombre de téléchargements maximum :</p>
+    
+<p>Si le forfait souscrit par l'université de l'étudiant est <br />
+    <strong>Standard</strong>: Le bonus est de 5. (Total = 10 + 5)<br />
+    <strong>Premuim</strong>:  Le bonus est de 10. (Total = 20 + 10)<br /><br />
+    <strong>Consigne</strong>: Proposez une implémentation qui respecte ces nouvelles contraintes, tout en respectant au maximum les principes S.O.L.I.D
+</p>
+
+<strong>Etape 3</strong>
+<p>Il existe maintenant une nouvelle exigence pour ajouter un nouveau type de forfait , "Illimité". Les étudiants des universités qui ont acheté ce forfait n'ont pas de limite d'allocation mensuelle.
+    <br /> Cette nouvelle contrainte vient probablement  à l'encontre de certaines modifications effectuées lors de l'étape 2, faîtes les changements en conséquence.
+</p>
+<strong>Consigne</strong>: Proposez une implémentation qui respecte ces nouvelles contraintes, tout en respectant au maximum les principes S.O.L.I.D
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>

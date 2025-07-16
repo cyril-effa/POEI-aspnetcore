@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ex10bis.Web.Controllers
 {
-    public class WarehouseController(IWarehouseRepository warehouseRepository, ICrudWarehouseUseCase crudWarehouseUseCase) : BaseController
+    public class WarehouseController(IWarehouseRepository warehouseRepository, IWarehouseUseCase warehouseUseCase) : BaseController
     {
         public async Task<IActionResult> Index()
         {
@@ -15,7 +15,7 @@ namespace ex10bis.Web.Controllers
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null) return NotFound();
-            var response = await crudWarehouseUseCase.Read(new ReadWarehouseRequest(id.Value));
+            var response = await warehouseUseCase.Read(new ReadWarehouseRequest(id.Value));
             if (!response.Success) return NotFound();
             return View(response.Warehouse);
         }
@@ -26,7 +26,7 @@ namespace ex10bis.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(CreateWarehouseRequest request)
         {
-            var response = await crudWarehouseUseCase.Create(request);
+            var response = await warehouseUseCase.Create(request);
             if (response.Success)
                 return RedirectToAction(nameof(Index));
             ModelState.AddModelError("", response.Response);
@@ -36,7 +36,7 @@ namespace ex10bis.Web.Controllers
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null) return NotFound();
-            var response = await crudWarehouseUseCase.Read(new ReadWarehouseRequest(id.Value));
+            var response = await warehouseUseCase.Read(new ReadWarehouseRequest(id.Value));
             if (!response.Success) return NotFound();
             var editRequest = new EditWarehouseRequest(
                 response.Warehouse.Id,
@@ -51,7 +51,7 @@ namespace ex10bis.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(EditWarehouseRequest request)
         {
-            var response = await crudWarehouseUseCase.Edit(request);
+            var response = await warehouseUseCase.Edit(request);
             if (response.Success)
                 return RedirectToAction(nameof(Index));
             ModelState.AddModelError("", response.Response);
@@ -61,7 +61,7 @@ namespace ex10bis.Web.Controllers
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null) return NotFound();
-            var response = await crudWarehouseUseCase.Read(new ReadWarehouseRequest(id.Value));
+            var response = await warehouseUseCase.Read(new ReadWarehouseRequest(id.Value));
             if (!response.Success) return NotFound();
             return View(response.Warehouse);
         }
@@ -70,7 +70,7 @@ namespace ex10bis.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(DeleteWarehouseRequest request)
         {
-            var response = await crudWarehouseUseCase.Delete(request);
+            var response = await warehouseUseCase.Delete(request);
             if (response.Success)
                 return RedirectToAction(nameof(Index));
             ModelState.AddModelError("", response.Response);

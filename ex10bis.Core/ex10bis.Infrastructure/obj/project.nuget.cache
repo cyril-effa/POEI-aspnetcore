@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6AQwgMrv3Ms=",
+  "dgSpecHash": "hQ+TLWZfBKU=",
   "success": true,
   "projectFilePath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\ex10bis.Core\\ex10bis.Infrastructure\\ex10bis.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\CYRIL.RASTEL\\.nuget\\packages\\ardalis.guardclauses\\5.0.0\\ardalis.guardclauses.5.0.0.nupkg.sha512",
     "C:\\Users\\CYRIL.RASTEL\\.nuget\\packages\\ardalis.specification\\9.2.0\\ardalis.specification.9.2.0.nupkg.sha512",
     "C:\\Users\\CYRIL.RASTEL\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\CYRIL.RASTEL\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

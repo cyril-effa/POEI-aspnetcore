@@ -32,20 +32,19 @@ namespace ex10bis.Web
 
             // Add article services
             builder.Services.AddScoped<IArticleRepository, ArticleRepository>()
-                            .AddScoped<ICrudArticleUseCase, CrudArticleUseCase>();
+                            .AddScoped<IArticleUseCase, ArticleUseCase>();
 
             // Add customer services
             builder.Services.AddScoped<ICustomerRepository, CustomerRepository>()
-                            .AddScoped<ICreateCustomerUseCase, CreateCustomerUseCase>();
+                            .AddScoped<ICustomerUseCase, CustomerUseCase>();
 
             // Add order services
             builder.Services.AddScoped<IOrderRepository, OrderRepository>()
-                            .AddScoped<ICrudOrderUseCase, CrudOrderUseCase>()
-                            .AddScoped<IServiceOrderUseCase, ServiceOrderUseCase>();
+                            .AddScoped<IOrderUseCase, OrderUseCase>();
 
             // Add warehouse services
             builder.Services.AddScoped<IWarehouseRepository, WarehouseRepository>()
-                            .AddScoped<ICrudWarehouseUseCase, CrudWarehouseUseCase>();
+                            .AddScoped<IWarehouseUseCase, WarehouseUseCase>();
 
             // Add delivery services
             builder.Services.AddScoped<IDeliveryRepository, DeliveryRepository>()
