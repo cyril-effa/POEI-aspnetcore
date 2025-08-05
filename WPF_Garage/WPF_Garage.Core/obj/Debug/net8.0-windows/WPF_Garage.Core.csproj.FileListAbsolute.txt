@@ -1,0 +1,12 @@
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\WPF_Garage\WPF_Garage.Core\bin\Debug\net8.0-windows\WPF_Garage.Core.deps.json
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\WPF_Garage\WPF_Garage.Core\bin\Debug\net8.0-windows\WPF_Garage.Core.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\WPF_Garage\WPF_Garage.Core\bin\Debug\net8.0-windows\WPF_Garage.Core.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\WPF_Garage\WPF_Garage.Core\obj\Debug\net8.0-windows\WPF_Garage.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\WPF_Garage\WPF_Garage.Core\obj\Debug\net8.0-windows\WPF_Garage.Core.AssemblyInfoInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\WPF_Garage\WPF_Garage.Core\obj\Debug\net8.0-windows\WPF_Garage.Core.AssemblyInfo.cs
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\WPF_Garage\WPF_Garage.Core\obj\Debug\net8.0-windows\WPF_Garage.Core.csproj.CoreCompileInputs.cache
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\WPF_Garage\WPF_Garage.Core\obj\Debug\net8.0-windows\WPF_Garage.Core.sourcelink.json
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\WPF_Garage\WPF_Garage.Core\obj\Debug\net8.0-windows\WPF_Garage.Core.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\WPF_Garage\WPF_Garage.Core\obj\Debug\net8.0-windows\refint\WPF_Garage.Core.dll
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\WPF_Garage\WPF_Garage.Core\obj\Debug\net8.0-windows\WPF_Garage.Core.pdb
+C:\Users\CYRIL.RASTEL\source\repos\POEI-aspnetcore\WPF_Garage\WPF_Garage.Core\obj\Debug\net8.0-windows\ref\WPF_Garage.Core.dll

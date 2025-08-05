@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="WPF_Garage.Views.UserControls.ListeVehiculesControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF_Garage.Views.UserControls">
+    <Grid>
+        <GroupBox Header="Liste des véhicules :" Margin="10" FontWeight="Bold">
+            <Grid>
+                <Button Content="+" Width="25" Height="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,-20,0,0" Command="{Binding AddVehiculeCommand}"/>
+                <DataGrid ItemsSource="{Binding Vehicules}" AutoGenerateColumns="False" IsReadOnly="True" AlternationCount="2"
+                          SelectedItem="{Binding SelectedVehicule}"  SelectionMode="Single" Margin="0,10,0,0">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Nom" Binding="{Binding Nom}" Width="100"/>
+                        <DataGridTextColumn Header="Marque" Binding="{Binding Marque}" Width="100"/>
+                        <DataGridTextColumn Header="Prix véhicule" Binding="{Binding Prix}" Width="120"/>
+                        <DataGridTextColumn Header="Moteur" Binding="{Binding MoteurType}" Width="100"/>
+                        <DataGridTextColumn Header="Cylindre" Binding="{Binding Cylindre}" Width="120"/>
+                        <DataGridTextColumn Header="Prix moteur" Binding="{Binding PrixMoteur}" Width="120"/>
+                        <DataGridTextColumn Header="Options" Binding="{Binding OptionsStr}" Width="300"/>
+                        <DataGridTextColumn Header="Prix total" Binding="{Binding PrixTotal}" Width="120"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</UserControl>
