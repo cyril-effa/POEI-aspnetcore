@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WarehousePjt.API\WarehousePjt.API.csproj" />
+    <ProjectReference Include="..\WarehousePjt.Core\WarehousePjt.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0i2rq4/KN18=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\Warehouse_WPF_Web_API\\WarehousePjt.Core\\WarehousePjt.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CYRIL.RASTEL\\.nuget\\packages\\ardalis.guardclauses\\5.0.0\\ardalis.guardclauses.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

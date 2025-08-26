@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "WarehousePjt",
+    "Projects": [
+      {
+        "Path": "WarehousePjt.API\\WarehousePjt.API.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

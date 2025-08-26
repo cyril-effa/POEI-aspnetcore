@@ -1,0 +1,200 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\wpf_garage\\wpf_garage\\views\\addvehiculewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|solutionrelative:wpf_garage\\views\\addvehiculewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\wpf_garage\\wpf_garage\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|solutionrelative:wpf_garage\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\wpf_garage\\wpf_garage\\views\\addoptionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|solutionrelative:wpf_garage\\views\\addoptionwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\wpf_garage\\wpf_garage\\views\\addoptionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|solutionrelative:wpf_garage\\views\\addoptionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\wpf_garage\\wpf_garage\\views\\usercontrols\\vehiculedetailscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|solutionrelative:wpf_garage\\views\\usercontrols\\vehiculedetailscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\wpf_garage\\wpf_garage\\views\\usercontrols\\vehiculedetailscontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|solutionrelative:wpf_garage\\views\\usercontrols\\vehiculedetailscontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\wpf_garage\\wpf_garage\\viewmodels\\vehiculeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|solutionrelative:wpf_garage\\viewmodels\\vehiculeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\wpf_garage\\wpf_garage\\viewmodels\\garageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|solutionrelative:wpf_garage\\viewmodels\\garageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\wpf_garage\\wpf_garage\\views\\addvehiculewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|solutionrelative:wpf_garage\\views\\addvehiculewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\wpf_garage\\wpf_garage\\viewmodels\\addvehiculeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|solutionrelative:wpf_garage\\viewmodels\\addvehiculeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|c:\\users\\cyril.rastel\\source\\repos\\poei-aspnetcore\\wpf_garage\\wpf_garage\\viewmodels\\optionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D77D7A70-D5C9-4AC7-8048-5EA493BF8890}|WPF_Garage\\WPF_Garage.csproj|solutionrelative:wpf_garage\\viewmodels\\optionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddVehiculeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\ViewModels\\AddVehiculeViewModel.cs",
+              "RelativeDocumentMoniker": "WPF_Garage\\ViewModels\\AddVehiculeViewModel.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\ViewModels\\AddVehiculeViewModel.cs",
+              "RelativeToolTip": "WPF_Garage\\ViewModels\\AddVehiculeViewModel.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwDsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T14:58:05.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddVehiculeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\Views\\AddVehiculeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Garage\\Views\\AddVehiculeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\Views\\AddVehiculeWindow.xaml.cs",
+              "RelativeToolTip": "WPF_Garage\\Views\\AddVehiculeWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T13:20:26.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddVehiculeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\Views\\AddVehiculeWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_Garage\\Views\\AddVehiculeWindow.xaml",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\Views\\AddVehiculeWindow.xaml",
+              "RelativeToolTip": "WPF_Garage\\Views\\AddVehiculeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-28T13:12:07.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddOptionWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\Views\\AddOptionWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_Garage\\Views\\AddOptionWindow.xaml",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\Views\\AddOptionWindow.xaml",
+              "RelativeToolTip": "WPF_Garage\\Views\\AddOptionWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-28T09:02:18.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddOptionWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\Views\\AddOptionWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Garage\\Views\\AddOptionWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\Views\\AddOptionWindow.xaml.cs",
+              "RelativeToolTip": "WPF_Garage\\Views\\AddOptionWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T08:54:23.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VehiculeDetailsControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\Views\\UserControls\\VehiculeDetailsControl.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Garage\\Views\\UserControls\\VehiculeDetailsControl.xaml.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\Views\\UserControls\\VehiculeDetailsControl.xaml.cs",
+              "RelativeToolTip": "WPF_Garage\\Views\\UserControls\\VehiculeDetailsControl.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T08:26:55.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VehiculeDetailsControl.xaml",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\Views\\UserControls\\VehiculeDetailsControl.xaml",
+              "RelativeDocumentMoniker": "WPF_Garage\\Views\\UserControls\\VehiculeDetailsControl.xaml",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\Views\\UserControls\\VehiculeDetailsControl.xaml",
+              "RelativeToolTip": "WPF_Garage\\Views\\UserControls\\VehiculeDetailsControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-24T08:04:29.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OptionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\ViewModels\\OptionViewModel.cs",
+              "RelativeDocumentMoniker": "WPF_Garage\\ViewModels\\OptionViewModel.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\ViewModels\\OptionViewModel.cs",
+              "RelativeToolTip": "WPF_Garage\\ViewModels\\OptionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T07:19:58.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VehiculeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\ViewModels\\VehiculeViewModel.cs",
+              "RelativeDocumentMoniker": "WPF_Garage\\ViewModels\\VehiculeViewModel.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\ViewModels\\VehiculeViewModel.cs",
+              "RelativeToolTip": "WPF_Garage\\ViewModels\\VehiculeViewModel.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAA+wHIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:21:56.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GarageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\ViewModels\\GarageViewModel.cs",
+              "RelativeDocumentMoniker": "WPF_Garage\\ViewModels\\GarageViewModel.cs",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\ViewModels\\GarageViewModel.cs",
+              "RelativeToolTip": "WPF_Garage\\ViewModels\\GarageViewModel.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAuwGwAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:03:14.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_Garage\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\CYRIL.RASTEL\\source\\repos\\POEI-aspnetcore\\WPF_Garage\\WPF_Garage\\MainWindow.xaml",
+              "RelativeToolTip": "WPF_Garage\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-17T09:03:19.053Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
